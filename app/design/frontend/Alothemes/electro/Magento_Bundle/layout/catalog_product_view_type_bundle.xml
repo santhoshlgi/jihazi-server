@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+	    <referenceContainer name="content">
+            <container name="bundle.options.container" htmlTag="div" htmlClass="bundle-options-container" before="product.info.details"/>
+        </referenceContainer>
+        <referenceContainer name="product.info.main">
+            <block class="Magento\Catalog\Block\Product\View" name="customize.button" as="customize_button" template="Magento_Bundle::catalog/product/view/customize.phtml" after="product.info.overview" />
+		</referenceContainer>
+		<move element="product.info.social" destination="product.shop.content" after="customize_button"/>
+		<!-- <referenceBlock name="product.info.social" remove="true"/> -->
+        <move element="product.info.review" destination="product.shop.content" after="page.main.title" before="product.info.stock.sku"/>
+        <move element="product.info.stock.sku" destination="product.shop.content" after="page.main.title"/>
+        <move element="product.info.overview" destination="product.shop.content" after="product.info.social"/>
+    </body>
+</page>

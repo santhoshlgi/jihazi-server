@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\SalesRule\Model\Rule\Action\Discount\CalculatorFactory">
+        <arguments>
+            <argument name="discountRules" xsi:type="array">
+                <item name="get_each_n_after_m_percent_discount_action" xsi:type="string">Mexbs\EachN\Model\Rule\Action\Discount\GetEachNAfterMPercentDiscount</item>
+                <item name="get_each_n_after_m_fixed_discount_action" xsi:type="string">Mexbs\EachN\Model\Rule\Action\Discount\GetEachNAfterMFixedDiscount</item>
+                <item name="get_each_n_after_m_fixed_price_discount_action" xsi:type="string">Mexbs\EachN\Model\Rule\Action\Discount\GetEachNAfterMFixedPriceDiscount</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

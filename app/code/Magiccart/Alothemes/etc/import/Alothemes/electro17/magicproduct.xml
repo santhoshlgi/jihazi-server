@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <magicproduct>
+    <item>
+      <title><![CDATA[Camera Smartphone(Demo3)]]></title>
+      <identifier><![CDATA[camera-martphone-demo3]]></identifier>
+      <type_id><![CDATA[3]]></type_id>
+      <config><![CDATA[a:33:{s:15:"magicproduct_id";s:2:"25";s:5:"title";s:24:"Camera Smartphone(Demo3)";s:4:"ajax";s:1:"1";s:5:"types";a:5:{i:0;s:10:"bestseller";i:1;s:6:"latest";i:2;s:3:"new";i:3;s:6:"random";i:4;s:4:"sale";}s:9:"activated";s:6:"latest";s:5:"limit";s:2:"16";s:6:"status";s:1:"2";s:11:"category_id";s:1:"9";s:12:"category_ids";a:8:{i:0;s:1:"3";i:1;s:2:"63";i:2;s:1:"4";i:3;s:1:"9";i:4;s:2:"13";i:5;s:2:"51";i:6;s:2:"53";i:7;s:2:"55";}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Top Selling Products]]></title>
+      <identifier><![CDATA[top_selling_products]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:32:{s:9:"countdown";s:0:"";s:5:"title";s:20:"Top Selling Products";s:4:"ajax";s:1:"1";s:5:"types";s:4:"sale";s:5:"limit";s:1:"7";s:6:"status";s:1:"1";s:12:"category_ids";a:1:{i:0;s:1:"0";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Random Products]]></title>
+      <identifier><![CDATA[random_products]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:30:{s:9:"countdown";s:0:"";s:5:"title";s:15:"Random Products";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"random";}s:9:"activated";s:6:"random";s:5:"limit";s:2:"10";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"5";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Strongly Discount Summer 2019]]></title>
+      <identifier><![CDATA[special-offer-home3]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"7aPOIh981clrSo3V";s:15:"magicproduct_id";s:2:"64";s:9:"countdown";s:17:"10/31/21 12:00 AM";s:5:"title";s:29:"Strongly Discount Summer 2019";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:1:"4";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"2";s:10:"widescreen";s:1:"2";s:7:"visible";s:1:"2";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:5:"false";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Television]]></title>
+      <identifier><![CDATA[Television-demo6]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:32:{s:9:"countdown";s:0:"";s:5:"title";s:10:"Television";s:5:"image";s:43:"magiccart/magicproduct/category//6/f/6f.jpg";s:4:"ajax";s:1:"1";s:5:"types";s:6:"latest";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:12:"category_ids";a:3:{i:0;s:1:"4";i:1;s:2:"51";i:2;s:2:"53";}s:9:"activated";s:1:"4";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"2";s:7:"visible";s:1:"2";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Laptop & Computer]]></title>
+      <identifier><![CDATA[laptop-computer-demo6]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:32:{s:9:"countdown";s:0:"";s:5:"title";s:17:"Laptop & Computer";s:5:"image";s:43:"magiccart/magicproduct/category//6/i/6i.jpg";s:4:"ajax";s:1:"1";s:5:"types";s:6:"latest";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:12:"category_ids";a:3:{i:0;s:2:"12";i:1;s:2:"51";i:2;s:2:"52";}s:9:"activated";s:2:"12";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Laptop & Computer]]></title>
+      <identifier><![CDATA[laptop-computer-demo8]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:17:"Laptop & Computer";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"12";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:1:{i:0;s:1:"3";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"2";s:10:"widescreen";s:1:"2";s:7:"visible";s:1:"2";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Video Game & Camera]]></title>
+      <identifier><![CDATA[video-game-camera-demo8]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:31:{s:9:"countdown";s:0:"";s:5:"title";s:19:"Video Game & Camera";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:12:"category_ids";a:1:{i:0;s:2:"53";}s:9:"activated";s:2:"53";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"2";s:7:"visible";s:1:"2";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Random Products]]></title>
+      <identifier><![CDATA[random-products-demo9]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:30:{s:9:"countdown";s:0:"";s:5:"title";s:15:"Random Products";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"random";}s:9:"activated";s:6:"random";s:5:"limit";s:2:"10";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[2]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Bestseller Products]]></title>
+      <identifier><![CDATA[bestseller-products-demo9]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:31:{s:9:"countdown";s:0:"";s:5:"title";s:19:"Bestseller Products";s:4:"ajax";s:1:"1";s:5:"types";s:10:"bestseller";s:5:"limit";s:2:"14";s:6:"status";s:1:"1";s:12:"category_ids";a:5:{i:0;s:1:"4";i:1;s:2:"12";i:2;s:2:"51";i:3;s:2:"52";i:4;s:2:"53";}s:9:"activated";s:2:"12";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"6";s:7:"visible";s:1:"6";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Camera & Audios]]></title>
+      <identifier><![CDATA[camera-audios-demo9]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:31:{s:9:"countdown";s:0:"";s:5:"title";s:15:"Camera & Audios";s:4:"ajax";s:1:"1";s:5:"types";s:6:"latest";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:12:"category_ids";a:1:{i:0;s:2:"53";}s:9:"activated";s:2:"53";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Smartphone & Tablets]]></title>
+      <identifier><![CDATA[smartphone-tablets-demo9]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:31:{s:9:"countdown";s:0:"";s:5:"title";s:20:"Smartphone & Tablets";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:12:"category_ids";a:1:{i:0;s:2:"51";}s:9:"activated";s:2:"51";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Best Sale(Left)]]></title>
+      <identifier><![CDATA[best-sale]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:30:{s:9:"countdown";s:0:"";s:5:"title";s:15:"Best Sale(Left)";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"latest";}s:9:"activated";s:6:"latest";s:5:"limit";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"0";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[random dome 8]]></title>
+      <identifier><![CDATA[random-demo8]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"t7ENEhBx3aDLUBXy";s:15:"magicproduct_id";s:2:"91";s:9:"countdown";s:0:"";s:5:"title";s:13:"random dome 8";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"random";}s:9:"activated";s:6:"random";s:5:"limit";s:2:"12";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Deals Of The Day]]></title>
+      <identifier><![CDATA[deals-of-the-day-demo9]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:33:{s:8:"form_key";s:16:"lXFbkD1ktbwwNQUT";s:15:"magicproduct_id";s:2:"92";s:9:"countdown";s:16:"12/17/19 2:57 PM";s:5:"title";s:16:"Deals Of The Day";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Deal of the days]]></title>
+      <identifier><![CDATA[deal-of-the-days-demo7]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:31:{s:9:"countdown";s:0:"";s:5:"title";s:16:"Deal of the days";s:4:"ajax";s:1:"1";s:5:"types";s:4:"sale";s:5:"limit";s:2:"20";s:6:"status";s:1:"1";s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:2:"51";i:2;s:2:"53";i:3;s:2:"54";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"1";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[smartphone deals]]></title>
+      <identifier><![CDATA[smartphone-deals]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:32:{s:9:"countdown";s:0:"";s:5:"title";s:16:"smartphone deals";s:4:"ajax";s:1:"1";s:5:"types";s:4:"sale";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:12:"category_ids";a:1:{i:0;s:2:"14";}s:9:"activated";s:2:"14";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"1";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Product tabs]]></title>
+      <identifier><![CDATA[product-tabs]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:30:{s:9:"countdown";s:0:"";s:5:"title";s:12:"Product tabs";s:4:"ajax";s:1:"1";s:5:"types";a:3:{i:0;s:8:"featured";i:1;s:3:"new";i:2;s:4:"sale";}s:9:"activated";s:8:"featured";s:5:"limit";s:2:"12";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Random Products 1]]></title>
+      <identifier><![CDATA[random-products]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"iCFbl9XaWPVIGSi1";s:15:"magicproduct_id";s:2:"99";s:9:"countdown";s:0:"";s:5:"title";s:17:"Random Products 1";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"random";}s:9:"activated";s:6:"random";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"6";s:10:"widescreen";s:1:"6";s:7:"visible";s:1:"6";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Bestseller]]></title>
+      <identifier><![CDATA[bestseller]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:32:{s:9:"countdown";s:0:"";s:5:"title";s:10:"Bestseller";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"12";s:6:"status";s:1:"1";s:12:"category_ids";a:8:{i:0;s:1:"3";i:1;s:1:"5";i:2;s:1:"7";i:3;s:1:"8";i:4;s:1:"9";i:5;s:2:"11";i:6;s:2:"12";i:7;s:2:"13";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Kitchen Appliances]]></title>
+      <identifier><![CDATA[kitchen-appliances-home-3]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:30:{s:9:"countdown";s:0:"";s:5:"title";s:18:"Kitchen Appliances";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:8:"featured";}s:9:"activated";s:8:"featured";s:5:"limit";s:1:"8";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"3";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Washing Machine]]></title>
+      <identifier><![CDATA[washingmachine]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:30:{s:9:"countdown";s:0:"";s:5:"title";s:15:"Washing Machine";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"latest";}s:9:"activated";s:6:"latest";s:5:"limit";s:2:"10";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"2";s:10:"widescreen";s:1:"2";s:7:"visible";s:1:"2";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[new arrive home 3]]></title>
+      <identifier><![CDATA[new-arrive3]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:33:{s:8:"form_key";s:16:"06cWPpDcxhNK9tPY";s:15:"magicproduct_id";s:3:"103";s:9:"countdown";s:0:"";s:5:"title";s:17:"new arrive home 3";s:4:"ajax";s:1:"1";s:5:"types";a:4:{i:0;s:8:"featured";i:1;s:6:"latest";i:2;s:3:"new";i:3;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:2:"10";s:6:"status";s:1:"2";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"3";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:4:"true";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[2]]></status>
+    </item>
+    <item>
+      <title><![CDATA[New Arrivals]]></title>
+      <identifier><![CDATA[new-arrivals]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:12:"New Arrivals";s:4:"ajax";s:1:"1";s:5:"types";s:10:"bestseller";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:4:{i:0;s:1:"3";i:1;s:2:"63";i:2;s:2:"14";i:3;s:1:"6";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Product tab home 3]]></title>
+      <identifier><![CDATA[product-tab-home-3]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"7aPOIh981clrSo3V";s:15:"magicproduct_id";s:3:"105";s:9:"countdown";s:0:"";s:5:"title";s:18:"Product tab home 3";s:4:"ajax";s:1:"1";s:5:"types";a:3:{i:0;s:10:"bestseller";i:1;s:8:"featured";i:2;s:6:"latest";}s:9:"activated";s:10:"bestseller";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:4:"true";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Latest Products Home 3]]></title>
+      <identifier><![CDATA[latest-products-home-3]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"7aPOIh981clrSo3V";s:15:"magicproduct_id";s:3:"106";s:9:"countdown";s:0:"";s:5:"title";s:22:"Latest Products Home 3";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"latest";}s:9:"activated";s:6:"latest";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[sale home 2]]></title>
+      <identifier><![CDATA[sale-peoduct]]></identifier>
+      <type_id><![CDATA[3]]></type_id>
+      <config><![CDATA[a:32:{s:5:"title";s:11:"sale home 2";s:10:"identifier";s:12:"sale-peoduct";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:10:"bestseller";}s:9:"activated";s:10:"bestseller";s:5:"limit";s:2:"10";s:11:"category_id";s:1:"0";s:12:"category_ids";a:1:{i:0;s:1:"3";}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[deal of the day home2]]></title>
+      <identifier><![CDATA[deal-of-the-day-home2]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"4eIB2dBvUSQSgAmX";s:15:"magicproduct_id";s:3:"109";s:9:"countdown";s:0:"";s:5:"title";s:21:"deal of the day home2";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:1:"6";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"1";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"10";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[product tab home2]]></title>
+      <identifier><![CDATA[product-tab-home2]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"iCFbl9XaWPVIGSi1";s:15:"magicproduct_id";s:3:"110";s:9:"countdown";s:0:"";s:5:"title";s:17:"product tab home2";s:4:"ajax";s:1:"1";s:5:"types";a:3:{i:0;s:8:"featured";i:1;s:6:"latest";i:2;s:4:"sale";}s:9:"activated";s:8:"featured";s:5:"limit";s:2:"20";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Hot Trending]]></title>
+      <identifier><![CDATA[hot-trending]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:31:{s:9:"countdown";s:0:"";s:5:"title";s:12:"Hot Trending";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"12";s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:1:"3";i:2;s:2:"63";i:3;s:2:"14";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Latest Products Home 2]]></title>
+      <identifier><![CDATA[top-buys]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"iCFbl9XaWPVIGSi1";s:15:"magicproduct_id";s:3:"112";s:9:"countdown";s:0:"";s:5:"title";s:22:"Latest Products Home 2";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"latest";}s:9:"activated";s:6:"latest";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Featured Products Home 2]]></title>
+      <identifier><![CDATA[most-viewed-products]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"iCFbl9XaWPVIGSi1";s:15:"magicproduct_id";s:3:"113";s:9:"countdown";s:0:"";s:5:"title";s:24:"Featured Products Home 2";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:8:"featured";}s:9:"activated";s:8:"featured";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"6";s:10:"widescreen";s:1:"6";s:7:"visible";s:1:"6";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Random Products Home 2]]></title>
+      <identifier><![CDATA[featured-products]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"aIpvd1vkGSPEyxVn";s:15:"magicproduct_id";s:3:"114";s:9:"countdown";s:0:"";s:5:"title";s:22:"Random Products Home 2";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:6:"random";}s:9:"activated";s:6:"random";s:5:"limit";s:1:"9";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"3";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[On Sale Home 2]]></title>
+      <identifier><![CDATA[on-sale]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"aIpvd1vkGSPEyxVn";s:15:"magicproduct_id";s:3:"115";s:9:"countdown";s:0:"";s:5:"title";s:14:"On Sale Home 2";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:1:"9";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"3";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[New Arrivals home 2]]></title>
+      <identifier><![CDATA[new-arrivals]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"c7Jkpu9i0eRGKYuw";s:15:"magicproduct_id";s:3:"116";s:9:"countdown";s:0:"";s:5:"title";s:19:"New Arrivals home 2";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:3:"new";}s:9:"activated";s:3:"new";s:5:"limit";s:1:"9";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"3";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[product tabs home 2]]></title>
+      <identifier><![CDATA[pr-tab-h3]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:19:"product tabs home 2";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"24";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:6:{i:0;s:1:"3";i:1;s:2:"63";i:2;s:2:"14";i:3;s:1:"6";i:4;s:2:"87";i:5;s:1:"4";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"6";s:10:"widescreen";s:1:"6";s:7:"visible";s:1:"6";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"10";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Special Offer!]]></title>
+      <identifier><![CDATA[special-offer-h4]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"c3lN76enVDMZ2Pvk";s:15:"magicproduct_id";s:3:"118";s:9:"countdown";s:0:"";s:5:"title";s:14:"Special Offer!";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:1:"9";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"1";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[tabs home 4]]></title>
+      <identifier><![CDATA[pr-tabs-h4]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:11:"tabs home 4";s:4:"ajax";s:1:"1";s:5:"types";s:10:"bestseller";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:3:{i:0;s:1:"3";i:1;s:2:"63";i:2;s:1:"6";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"3";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"5";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Laptop & Computer]]></title>
+      <identifier><![CDATA[laptop-computer]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:17:"Laptop & Computer";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:3:{i:0;s:1:"3";i:1;s:3:"139";i:2;s:2:"63";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Most Viewed Products]]></title>
+      <identifier><![CDATA[most-viewed-products-h4]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"c3lN76enVDMZ2Pvk";s:15:"magicproduct_id";s:3:"121";s:9:"countdown";s:0:"";s:5:"title";s:20:"Most Viewed Products";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:8:"featured";}s:9:"activated";s:8:"featured";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"3";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"4";s:6:"laptop";s:1:"5";s:7:"desktop";s:1:"6";s:10:"widescreen";s:1:"6";s:7:"visible";s:1:"6";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Special Offer Home 5]]></title>
+      <identifier><![CDATA[special-offer-h5]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:30:{s:9:"countdown";s:0:"";s:5:"title";s:20:"Special Offer Home 5";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:1:"5";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"1";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[tabs home 5]]></title>
+      <identifier><![CDATA[tabs-5]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"hAe3d8PkyAf3ncgd";s:15:"magicproduct_id";s:3:"123";s:9:"countdown";s:0:"";s:5:"title";s:11:"tabs home 5";s:4:"ajax";s:1:"1";s:5:"types";a:3:{i:0;s:10:"bestseller";i:1;s:8:"featured";i:2;s:3:"new";}s:9:"activated";s:10:"bestseller";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Powerful Audio & Headphone]]></title>
+      <identifier><![CDATA[hot-trending-2]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:26:"Powerful Audio & Headphone";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:5:{i:0;s:1:"0";i:1;s:1:"3";i:2;s:2:"63";i:3;s:2:"14";i:4;s:1:"6";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[hot trending home2]]></title>
+      <identifier><![CDATA[hot-trending-5-2]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:18:"hot trending home2";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:1:"3";i:2;s:2:"63";i:3;s:2:"14";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Powerful Audio & Headphone 2]]></title>
+      <identifier><![CDATA[hot-trending-5-3]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:32:{s:9:"countdown";s:0:"";s:5:"title";s:28:"Powerful Audio & Headphone 2";s:10:"identifier";s:16:"hot-trending-5-3";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:3:"139";i:2;s:2:"63";i:3;s:2:"14";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"3";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Smartphone & Tablets]]></title>
+      <identifier><![CDATA[ct-tabs-5-1]]></identifier>
+      <type_id><![CDATA[3]]></type_id>
+      <config><![CDATA[a:35:{s:15:"magicproduct_id";s:3:"127";s:5:"title";s:20:"Smartphone & Tablets";s:4:"ajax";s:1:"1";s:5:"types";a:4:{i:0;s:10:"bestseller";i:1;s:8:"featured";i:2;s:6:"latest";i:3;s:3:"new";}s:9:"activated";s:10:"bestseller";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:11:"category_id";s:1:"3";s:12:"category_ids";a:4:{i:0;s:1:"3";i:1;s:2:"63";i:2;s:2:"14";i:3;s:1:"6";}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";s:13:"media_gallery";a:1:{s:6:"images";a:1:{s:11:"98j53lpkhr3";a:15:{s:8:"position";s:1:"1";s:10:"media_type";s:5:"image";s:14:"video_provider";s:0:"";s:4:"file";s:15:"/v/d/vda_3_.png";s:8:"value_id";s:0:"";s:5:"label";s:0:"";s:4:"link";s:0:"";s:7:"caption";s:0:"";s:8:"disabled";s:1:"0";s:7:"removed";s:0:"";s:9:"video_url";s:0:"";s:11:"video_title";s:0:"";s:17:"video_description";s:0:"";s:14:"video_metadata";s:0:"";s:4:"role";s:0:"";}}}}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Laptop & Computer]]></title>
+      <identifier><![CDATA[ct-tabs-5-2]]></identifier>
+      <type_id><![CDATA[3]]></type_id>
+      <config><![CDATA[a:35:{s:15:"magicproduct_id";s:3:"128";s:5:"title";s:17:"Laptop & Computer";s:4:"ajax";s:1:"1";s:5:"types";a:4:{i:0;s:6:"latest";i:1;s:3:"new";i:2;s:6:"random";i:3;s:4:"sale";}s:9:"activated";s:6:"latest";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:11:"category_id";s:2:"63";s:12:"category_ids";a:1:{i:0;s:2:"63";}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";s:13:"media_gallery";a:1:{s:6:"images";a:1:{s:11:"ded1pd99tj4";a:15:{s:8:"position";s:1:"1";s:10:"media_type";s:5:"image";s:14:"video_provider";s:0:"";s:4:"file";s:15:"/v/d/vda_4_.png";s:8:"value_id";s:0:"";s:5:"label";s:0:"";s:4:"link";s:0:"";s:7:"caption";s:0:"";s:8:"disabled";s:1:"0";s:7:"removed";s:0:"";s:9:"video_url";s:0:"";s:11:"video_title";s:0:"";s:17:"video_description";s:0:"";s:14:"video_metadata";s:0:"";s:4:"role";s:0:"";}}}}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Deals Of the Day Home 6]]></title>
+      <identifier><![CDATA[dofdh6]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"qY4P7BLXzMevZyk6";s:15:"magicproduct_id";s:3:"129";s:9:"countdown";s:15:"8/29/20 6:22 AM";s:5:"title";s:23:"Deals Of the Day Home 6";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Product tabs]]></title>
+      <identifier><![CDATA[product-tabs-h6]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"qY4P7BLXzMevZyk6";s:15:"magicproduct_id";s:3:"130";s:9:"countdown";s:0:"";s:5:"title";s:12:"Product tabs";s:4:"ajax";s:1:"1";s:5:"types";a:3:{i:0;s:8:"featured";i:1;s:3:"new";i:2;s:4:"sale";}s:9:"activated";s:8:"featured";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Laptop & Computer]]></title>
+      <identifier><![CDATA[laptop-computer-h6]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:17:"Laptop & Computer";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:3:{i:0;s:1:"3";i:1;s:2:"63";i:2;s:2:"14";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[New Arrivals]]></title>
+      <identifier><![CDATA[new-arrivals-h6]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:12:"New Arrivals";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:1:"3";i:2;s:2:"63";i:3;s:2:"14";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Shop by categories]]></title>
+      <identifier><![CDATA[pr-tab-h7]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:18:"Shop by categories";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:6:{i:0;s:1:"3";i:1;s:3:"139";i:2;s:2:"63";i:3;s:1:"6";i:4;s:1:"4";i:5;s:1:"9";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Strongly Discount Summer 2020]]></title>
+      <identifier><![CDATA[pr-ct-h7]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"zBnN7x8Agjx75Bzn";s:15:"magicproduct_id";s:3:"134";s:9:"countdown";s:0:"";s:5:"title";s:29:"Strongly Discount Summer 2020";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:1:"4";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"2";s:10:"widescreen";s:1:"2";s:7:"visible";s:1:"2";s:5:"timer";s:1:"1";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Coffee, Tea & Espresso ]]></title>
+      <identifier><![CDATA[hot-trending-3]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:23:"Coffee, Tea & Espresso ";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:1:"3";i:2;s:3:"139";i:3;s:1:"4";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"3";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Kitchens Cookware]]></title>
+      <identifier><![CDATA[kitchens-cookware]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:17:"Kitchens Cookware";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:3:"139";i:2;s:3:"142";i:3;s:3:"144";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"2";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"4";s:10:"widescreen";s:1:"4";s:7:"visible";s:1:"4";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:5:"false";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Camera & Photo home 3]]></title>
+      <identifier><![CDATA[camera-photo]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:21:"Camera & Photo home 3";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:1:"4";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:1:{i:0;s:2:"63";}s:9:"activated";s:2:"63";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"2";s:10:"widescreen";s:1:"2";s:7:"visible";s:1:"2";s:5:"timer";s:1:"0";s:5:"slide";s:1:"0";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:4:"true";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"0";s:7:"compare";s:1:"0";s:8:"wishlist";s:1:"0";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[special  offer home 8]]></title>
+      <identifier><![CDATA[special-offer-home8]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"4eIB2dBvUSQSgAmX";s:15:"magicproduct_id";s:3:"138";s:9:"countdown";s:0:"";s:5:"title";s:21:"special  offer home 8";s:4:"ajax";s:1:"1";s:5:"types";a:1:{i:0;s:4:"sale";}s:9:"activated";s:4:"sale";s:5:"limit";s:1:"6";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"1";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"10";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[product tab home8]]></title>
+      <identifier><![CDATA[product-tab-home8]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <config><![CDATA[a:34:{s:8:"form_key";s:16:"4eIB2dBvUSQSgAmX";s:9:"countdown";s:0:"";s:5:"title";s:17:"product tab home8";s:10:"identifier";s:17:"product-tab-home8";s:4:"ajax";s:1:"1";s:5:"types";a:3:{i:0;s:8:"featured";i:1;s:6:"latest";i:2;s:4:"sale";}s:9:"activated";s:8:"featured";s:5:"limit";s:2:"20";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"2";s:6:"laptop";s:1:"2";s:7:"desktop";s:1:"3";s:10:"widescreen";s:1:"3";s:7:"visible";s:1:"3";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"2";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Bestseller]]></title>
+      <identifier><![CDATA[bestseller-home8]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:10:"Bestseller";s:4:"ajax";s:1:"1";s:5:"types";s:1:"0";s:5:"limit";s:2:"12";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:8:{i:0;s:1:"3";i:1;s:1:"5";i:2;s:1:"7";i:3;s:1:"8";i:4;s:1:"9";i:5;s:2:"11";i:6;s:2:"12";i:7;s:2:"13";}s:9:"activated";s:1:"3";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"1";s:6:"tablet";s:1:"1";s:8:"notebook";s:1:"1";s:6:"laptop";s:1:"1";s:7:"desktop";s:1:"1";s:10:"widescreen";s:1:"1";s:7:"visible";s:1:"1";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:2:"15";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"1";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+    <item>
+      <title><![CDATA[Latest products]]></title>
+      <identifier><![CDATA[latest-products-hom8]]></identifier>
+      <type_id><![CDATA[2]]></type_id>
+      <config><![CDATA[a:33:{s:9:"countdown";s:0:"";s:5:"title";s:15:"Latest products";s:4:"ajax";s:1:"1";s:5:"types";s:6:"latest";s:5:"limit";s:2:"10";s:6:"status";s:1:"1";s:10:"parameters";a:1:{s:10:"conditions";a:1:{i:1;a:4:{s:4:"type";s:50:"Magento\CatalogWidget\Model\Rule\Condition\Combine";s:10:"aggregator";s:3:"all";s:5:"value";s:1:"1";s:9:"new_child";s:0:"";}}}s:12:"category_ids";a:4:{i:0;s:1:"0";i:1;s:1:"3";i:2;s:2:"63";i:3;s:1:"6";}s:9:"activated";s:1:"0";s:6:"mobile";s:1:"1";s:8:"portrait";s:1:"1";s:9:"landscape";s:1:"2";s:6:"tablet";s:1:"2";s:8:"notebook";s:1:"3";s:6:"laptop";s:1:"4";s:7:"desktop";s:1:"5";s:10:"widescreen";s:1:"5";s:7:"visible";s:1:"5";s:5:"timer";s:1:"0";s:5:"slide";s:1:"1";s:8:"vertical";s:5:"false";s:8:"infinite";s:4:"true";s:8:"autoplay";s:5:"false";s:6:"arrows";s:4:"true";s:4:"dots";s:5:"false";s:4:"rows";s:1:"1";s:5:"speed";s:3:"300";s:14:"autoplay-Speed";s:4:"3000";s:7:"padding";s:1:"0";s:4:"cart";s:1:"1";s:7:"compare";s:1:"1";s:8:"wishlist";s:1:"1";s:6:"review";s:1:"0";}]]></config>
+      <status><![CDATA[1]]></status>
+    </item>
+  </magicproduct>
+</root>

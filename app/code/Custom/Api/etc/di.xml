@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Custom\Api\Api\LoginManagementInterface" type="Custom\Api\Model\LoginManagement"/>
+	<preference for="Custom\Api\Api\RegistrationManagementInterface" type="Custom\Api\Model\RegistrationManagement"/>
+	<preference for="Custom\Api\Api\ForgetManagementInterface" type="Custom\Api\Model\ForgetManagement"/>
+	<preference for="Custom\Api\Api\ResetManagementInterface" type="Custom\Api\Model\ResetManagement"/>
+	<preference for="Custom\Api\Api\HomePageManagementInterface" type="Custom\Api\Model\HomePageManagement"/>
+	<preference for="Custom\Api\Api\ProductManagementInterface" type="Custom\Api\Model\ProductManagement"/>
+	<preference for="Custom\Api\Api\WishlistManagementInterface" type="Custom\Api\Model\WishlistManagement"/>
+	<preference for="Custom\Api\Api\OrderManagementInterface" type="Custom\Api\Model\OrderManagement"/>
+</config>

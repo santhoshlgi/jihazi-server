@@ -1,0 +1,39 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var $block \Magento\Catalog\Block\Product\View*/
+?>
+<div class="product-addto-links" data-role="add-to-links">
+    <?= $block->getChildHtml() ?>
+</div>
+<?php        
+/* $_helper = $this->helper(Magento\Catalog\Helper\Output::class);
+$_product = $block->getProduct();
+$_productCollection = $block->getLoadedProductCollection();
+$_helper = $this->helper('Magento\Catalog\Helper\Output');
+$_aloHelper = $this->helper('Magiccart\Alothemes\Helper\Data');
+?>       
+ <?php
+    if($_product->getTypeID()=='grouped'){
+    $id=$_product->getId();
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $parent_pro = $objectManager->create('Magento\Catalog\Model\Product')->load($id); 
+    $_children = $parent_pro->getTypeInstance(true)->getAssociatedProducts($parent_pro);
+    $sum = 0;
+  
+    foreach ($_children as $child) {
+	  if ($child->getId() != $parent_pro->getId()) {
+       $totalprice=0;
+     
+       $totalprice =  $child->getPrice();
+       $sum = $sum + $totalprice;
+       }
+    } 
+    echo  "<b>Price: </b>".$sum;
+}*/
+    ?>

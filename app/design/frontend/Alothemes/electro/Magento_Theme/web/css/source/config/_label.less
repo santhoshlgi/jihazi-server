@@ -1,0 +1,168 @@
+// /**
+//  * Copyright © 2015 Magento. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  Blank theme overrides
+//  _____________________________________________
+
+//  Theme file should contain declarations (overrides) ONLY OF EXISTING variables
+//  Otherwise this theme won't be available for parent nesting
+//  All new variables should be placed in local theme lib or local theme files
+
+
+& when (@media-common = true) {    
+    //LABEL
+    .product-label{
+        position: absolute;
+        top: 20px;
+        z-index: 4;
+        left:10px;
+    }
+    .sticker {
+        &.top-left{
+            margin-bottom:5px;
+            display:block;
+        }
+    } 
+    .labelnew, .labelsale {
+        display: block;
+        line-height:24px;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-transform: uppercase; 
+        height:24px;
+        background-color:@color-hover;  
+        color:@white;  
+        .round-borders(@radius: 3px);
+        padding:0 10px;
+    }
+    .cat_label{
+        background-color: @base-color;            
+        border-style: solid;
+        border-width: 1px;
+        border-color:@white;
+        color: @white;
+        font-size: 10px !important;
+        font-weight: 600;
+        line-height: 13px;
+        padding: 0 7px;
+        height:14px;
+        text-transform: uppercase;
+        margin-left:0;
+        left:50%;
+        bottom:100%;
+        .lateX-transform(@x: -50%);
+        &:before{
+            display: none;
+        }
+    }   
+}
+
+
+/* responsive */
+& when (@media-common = true) {
+    @media screen and (max-width: (@screen__xl-m - 1)){
+        .cat_label{
+            .lateX-transform(@x: 50%);
+            bottom:auto;
+            top:5px
+
+        }
+    }
+    @media screen and (max-width: (@screen__xm - 1)){
+           
+    }
+    @media screen and (min-width: @screen__m){
+
+    }
+    @media screen and (min-width: @screen__m) and (max-width: (@screen__xm - 1)){
+
+    }
+    @media screen and (max-width: @screen__m){
+
+    }
+    @media screen and (max-width: (@screen__m - 1)){
+         
+    }
+    @media screen and (max-width: (@screen__s - 1)){
+     
+    }
+    @media screen and (max-width: (@screen__ss - 1)){
+              
+    }
+    @media screen and (max-width: @screen__xs ){ 
+      
+    }
+    @media screen and (max-width: @screen__xs ) and (min-width: (@screen__xs-m + 1)){
+
+    }
+    @media screen and (max-width: @screen__xs-m ){
+
+    }   
+}
+
+
+& when (@media-common = true) {   
+    .rtl {
+        //sticker
+        .product-label{
+            left:auto;
+            right:10px;
+        }   
+    }
+    @media screen and (max-width: (@screen__xl-m - 1)){       
+        .rtl{
+            .cat_label{
+                .lateX-transform(@x: -50%);
+            }
+        }
+    }
+    @media screen and (max-width: (@screen__xm - 1)){
+        .rtl{
+           
+        }
+    }
+    @media screen and (min-width: @screen__m){
+        .rtl{
+
+        }
+    }
+    @media screen and (min-width: @screen__m) and (max-width: (@screen__xm - 1)) {
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: (@screen__m - 1)){
+        .rtl{
+              
+        }
+    }
+    @media screen and (max-width: (@screen__s - 1)){
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: (@screen__ss - 1)){
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: @screen__xs ){
+        .rtl{
+            
+        }
+    }
+    @media screen and (max-width: @screen__xs ) and (min-width: (@screen__xs-m + 1)){
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: @screen__xs-m ){
+        .rtl{
+
+        }
+    }
+}

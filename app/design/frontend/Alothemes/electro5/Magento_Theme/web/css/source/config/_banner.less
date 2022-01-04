@@ -1,0 +1,210 @@
+// /**
+//  * Copyright © 2015 Magento. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  Blank theme overrides
+//  _____________________________________________
+
+//  Theme file should contain declarations (overrides) ONLY OF EXISTING variables
+//  Otherwise this theme won't be available for parent nesting
+//  All new variables should be placed in local theme lib or local theme files
+
+
+& when (@media-common = true) {  
+    //banner
+    .cms-banner-bottom{        
+        .banner{
+            background: #e55353 url(../images/alothemes/deco2.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+           padding: 20px 15px;
+        }       
+        .d-flex{
+            align-items: center;
+        }
+        .shop-now{
+            &:extend(.button-decor all);
+            padding:0 33.5px;
+            color:@white;
+            border-color: @white;
+            margin: 0 100px;
+            &:hover{
+                background: @white;
+                color:@text-hover;
+            }
+        }
+        .banner-content{
+            margin-bottom: 0;
+            flex:1;
+            color: @white;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-align: right;
+            letter-spacing:1px;
+        }
+    }
+    .banner-sidebar{
+        a{
+            display: block;
+            position: relative;
+            overflow:hidden;
+            img{
+                .transition(@value: ease-in-out, @min: 0.8s);
+            }
+            &:hover{
+                img{
+                    .sca2-transform(@x: 1.2);
+                }
+            }
+        }
+    }
+}
+
+
+/* responsive */
+@screen__xxs: 320px;
+@screen__xs-m: 360px;
+@screen__xs: 480px;
+@screen__ss: 576px;
+@screen__s: 640px;
+@screen__m: 768px;
+@screen__xm: 992px;
+@screen__l: 1024px;
+@screen__xl-m: 1200px;
+
+& when (@media-common = true) {    
+    @media screen and (min-width: (@screen__xl-m + 1)){
+
+    }
+    @media screen and (max-width: (@screen__xl-m - 1)){      
+        .cms-banner-bottom{
+            .shop-now{
+                margin:0 50px;
+            }
+            .banner-content{
+                font-size:1.4rem;
+            }
+        }
+    }
+    @media screen and (max-width: (@screen__xm - 1)){
+        .cms-banner-bottom {
+            .banner-content{
+                width:100%;
+                flex:none;
+                margin-bottom: 15px;
+                text-align:center;
+            }
+            .shop-now{
+                margin: 0;
+            }
+            .d-flex{
+                justify-content: center;
+            }
+            .container{
+                background-position: left center;
+            }
+        }
+    }
+    @media screen and (min-width: @screen__m){
+
+    }
+    @media screen and (min-width: @screen__m) and (max-width: (@screen__xm - 1)){
+
+    }
+    @media screen and (max-width: @screen__m){
+
+    }
+    @media screen and (max-width: (@screen__m - 1)){
+         
+    }
+    @media screen and (max-width: (@screen__s - 1)){
+     
+    }
+    @media screen and (max-width: (@screen__ss - 1)){
+              
+    }
+    @media screen and (max-width: @screen__xs ){ 
+      //banner
+        .cms-banner-bottom {
+            .banner-content{
+                font-size: 1.6rem;
+            }
+        }
+    }
+    @media screen and (max-width: @screen__xs ) and (min-width: (@screen__xs-m + 1)){
+
+    }
+    @media screen and (max-width: @screen__xs-m ){
+
+    }   
+}
+
+
+& when (@media-common = true) {   
+    .rtl {
+        //banner
+        .cms-banner-bottom {
+            .shop-now{
+                margin-right: 0;
+                margin-left: 95px;
+            }
+        }
+    }
+    @media screen and (max-width: (@screen__xl-m - 1)){       
+        .rtl{
+            
+        }
+    }
+    @media screen and (max-width: (@screen__xm - 1)){
+        .rtl{
+            .cms-banner-bottom {
+                .shop-now{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    @media screen and (min-width: @screen__m){
+        .rtl{
+
+        }
+    }
+    @media screen and (min-width: @screen__m) and (max-width: (@screen__xm - 1)) {
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: (@screen__m - 1)){
+        .rtl{
+              
+        }
+    }
+    @media screen and (max-width: (@screen__s - 1)){
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: (@screen__ss - 1)){
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: @screen__xs ){
+        .rtl{
+            
+        }
+    }
+    @media screen and (max-width: @screen__xs ) and (min-width: (@screen__xs-m + 1)){
+        .rtl{
+
+        }
+    }
+    @media screen and (max-width: @screen__xs-m ){
+        .rtl{
+
+        }
+    }
+}

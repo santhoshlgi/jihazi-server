@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Block Header Support]]></title>
+      <identifier><![CDATA[cms-static-top-support]]></identifier>
+      <content><![CDATA[<div id="cms-static-top-support" class="cms-static-top-support hot-support">
+<div class="hotline">
+<p><span class="icon icon-phone"><em class="hidden">hidden</em></span>+060 (800) 801-858</p>
+</div>
+<div class="email">
+<p><span class="icon icon-mail"><em class="hidden">hidden</em></span>info@electro.com</p>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[ Block Footer Top]]></title>
+      <identifier><![CDATA[block_footer_top]]></identifier>
+      <content><![CDATA[<div id="cms-static-main-footer" class="block_footer_top cms-static-main-footer">
+<div class="container">
+<div class="row">
+<div class="box-content collapsible mobile-collapsible">
+<h3 class="title"><a href="{{store url=&quot;&quot;}}"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/01-logo-old.png&quot;}}" alt="" width="145" height="43"></a></h3>
+<span class="toggle-tab mobile"><em class="hidden">hidden</em></span>
+<div class="content toggle-content">
+<ul>
+<li><span class="icon icon-support"><em class="hidden">hidden</em></span>
+<p class="info"><span class="question">Got questions? Call us 24/7!</span><br><span class="hot-number">(800) 8001-8588, (0600) 874 548</span></p>
+</li>
+<li><span class="sub-title">Contact info</span>
+<p class="address">17 Princess Road, London, Greater London NW1 8JR, UK</p>
+</li>
+<li>
+<div class="link-social">
+<ul class="link-list">
+<li class="link-icon"><a class="fa fa-facebook" title="facebook" href="#"><span class="hidden">hidden</span></a></li>
+<li class="link-icon"><a class="fa fa-twitter" title="twitter" href="#"><span class="hidden">hidden</span></a></li>
+<li class="link-icon"><a class="fa fa-rss" title="rss" href="#"><span class="hidden">hidden</span></a></li>
+<li class="link-icon"><a class="fa fa-google-plus" title="google-plus" href="#"><span class="hidden">hidden</span></a></li>
+<li class="link-icon"><a class="fa fa-dribbble" title="dribbble" href="#"><span class="hidden">hidden</span></a></li>
+<li class="link-icon"><a class="fa fa-linkedin" title="linkedin" href="#"><span class="hidden">hidden</span></a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="box-content collapsible mobile-collapsible">
+<div class="menu-ft">
+<h3 class="title toggle-tab">Find it fast</h3>
+<div class="content toggle-content">
+<ul class="link-list">
+<li><a href="#">Laptop &amp; computers</a></li>
+<li><a href="#">Camera &amp; photography</a></li>
+<li><a href="#">Smart phones &amp; tablets</a></li>
+<li><a href="#">Video games &amp; consoles</a></li>
+<li><a href="#">Tv &amp; audio</a></li>
+<li><a href="#">Gadgets</a></li>
+<li><a href="#">Cart electronic &amp; GPS</a></li>
+<li><a href="#">Printers &amp; ink</a></li>
+<li><a href="#">Software</a></li>
+<li><a href="#">Office supplies</a></li>
+<li><a href="#">Computer components</a></li>
+<li><a href="#">Accessories</a></li>
+</ul>
+</div>
+</div>
+<div class="menu-ft">
+<h3 class="title toggle-tab">Customer care</h3>
+<div class="content toggle-content">
+<ul class="link-list">
+<li><a href="{{store url=&quot;customer/account&quot;}}">My account</a></li>
+<li><a href="{{store url=&quot;trackorder&quot;}}">Order tracking</a></li>
+<li><a href="{{store url=&quot;contact&quot;}}">Contact Us</a></li>
+<li><a href="#">Customer service</a></li>
+<li><a href="#">Return/exchange</a></li>
+<li><a href="{{store direct_url=&quot;faq&quot;}}">FAQs</a></li>
+<li><a href="{{store direct_url=&quot;termsconditions&quot;}}">Terms and Conditions</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slide Home Page]]></title>
+      <identifier><![CDATA[cms-static-main-slide]]></identifier>
+      <content><![CDATA[<div class="slide-home cms-static-main-slide alo-magicslider">{{widget type="Magiccart\Magicslider\Block\Widget\Slider" identifier="slider" class="home-slider" template="magicslider.phtml"}}</div>
+
+<div class="gw-col-cat wow fadeInUp">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+			<div class="gw-col">
+				<div class="a-cardui">
+					<div class="a-cardui-header">
+						<h2 class="a-color-base headline truncate-2line">Shop your computer</h2>
+					</div>
+					<div class="a-cardui-body">
+						<div class="a-section a-spacing-small grid-row-1">
+							<div class="quadrant-container quadrant-container-0">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-1.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Computers</span>
+									</div>
+								</a>
+							</div>
+							<div class="quadrant-container quadrant-container-1">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-2.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Smartphones</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="a-section grid-row-2">
+							<div class="quadrant-container quadrant-container-0">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-3.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Cameras</span>
+									</div>
+								</a>
+							</div>
+							<div class="quadrant-container quadrant-container-1">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-4.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Desktops</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="a-cardui-footer"><a class="a-link-normal see-more" href="#">See more</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+			<div class="gw-col">
+				<div class="a-cardui">
+					<div class="a-cardui-header">
+						<h2 class="a-color-base headline truncate-2line">Shop your smartphones</h2>
+					</div>
+					<div class="a-cardui-body">
+						<div class="a-section a-spacing-small grid-row-1">
+							<div class="quadrant-container quadrant-container-0">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-6.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Monitors</span>
+									</div>
+								</a>
+							</div>
+							<div class="quadrant-container quadrant-container-1">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-7.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Software</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="a-section grid-row-2">
+							<div class="quadrant-container quadrant-container-0">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-8.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Racing games</span>
+									</div>
+								</a>
+							</div>
+							<div class="quadrant-container quadrant-container-1">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-9.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Powerbanks</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="a-cardui-footer"><a class="a-link-normal see-more" href="#">See more</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+			<div class="gw-col">
+				<div class="a-cardui">
+					<div class="a-cardui-header">
+						<h2 class="a-color-base headline truncate-2line">Shop your audio</h2>
+					</div>
+					<div class="a-cardui-body">
+						<div class="a-section a-spacing-small grid-row-1">
+							<div class="quadrant-container quadrant-container-0">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-10.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Motorbike</span>
+									</div>
+								</a>
+							</div>
+							<div class="quadrant-container quadrant-container-1">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-11.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Accesories</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="a-section grid-row-2">
+							<div class="quadrant-container quadrant-container-0">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-11.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Smartphones</span>
+									</div>
+								</a>
+							</div>
+							<div class="quadrant-container quadrant-container-1">
+								<a href="#" class="a-link-normal image-window">
+									<div class="fluid-image-container"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/promo-banner-13.jpg&quot;}}" alt="" /></div>
+									<div class="image-label">
+										<span class="a-title">Tablets</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="a-cardui-footer"><a class="a-link-normal see-more" href="#">See more</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- end promo category--!>
+
+]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Newletter]]></title>
+      <identifier><![CDATA[cms-static-page-bottom]]></identifier>
+      <content><![CDATA[<div id="cms-static-page-bottom" class="cms-static-page-bottom page-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="block-newletter">{{block class="Magento\Newsletter\Block\Subscribe" template="subscribe.phtml"}}</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Best Deals]]></title>
+      <identifier><![CDATA[cms-static-main-category]]></identifier>
+      <content><![CDATA[<div id="cms-static-main-category" class="cms-static-main-category main-category wow fadeInUp">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">{{widget type="Magiccart\Magicproduct\Block\Widget\Category" template="category-multi-grid.phtml" identifier="cms-static-main-category"}}</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Home Bottom Banner]]></title>
+      <identifier><![CDATA[cms-static-bottom-banner]]></identifier>
+      <content><![CDATA[<div id="cms-static-bottom-banner" class="cms-static-bottom-banner bottom-banner">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<a href="#">
+<img src="{{media url="wysiwyg/alothemes/static/demo1/banner1.png"}}" alt="" />
+</a>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Bestsellers]]></title>
+      <identifier><![CDATA[cms-static-bestsellers-category]]></identifier>
+      <content><![CDATA[<div class="cms-static-bestsellers-category bestsellers-category section-category-slide wow fadeInUp">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">{{widget type="Magiccart\Magicproduct\Block\Widget\Category" template="category-custom.phtml" identifier="cms-static-bestsellers-category"}}</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Featured products]]></title>
+      <identifier><![CDATA[cms-static-fearured-products]]></identifier>
+      <content><![CDATA[<div id="cms-static-fearured-products" class="cms-static-fearured-products fearured-products wow fadeInUp">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="cms-static-fearured-products" template="product.phtml"}}</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Brands]]></title>
+      <identifier><![CDATA[cms-static-brands]]></identifier>
+      <content><![CDATA[<div id="cms-static-brands" class="cms-static-brands brands">
+<div class="container">
+<div class="cms-brand-main">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="brands-content">{{widget type="Magiccart\Shopbrand\Block\Widget\Brand" template="brand.phtml"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Three Custom Product]]></title>
+      <identifier><![CDATA[cms-static-mix-custom-product]]></identifier>
+      <content><![CDATA[<div id="cms-static-mix-custom-product" class="cms-static-mix-custom-product">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 magic-featured-product">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-featured-product" template="productcustom.phtml"}}</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 magic-onsale-product">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-onsale-product" template="productcustom.phtml"}}</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 magic-bestseller-product">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-bestseller-product" template="productcustom.phtml"}}</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block-sidebar-additional]]></title>
+      <identifier><![CDATA[block-sidebar-additional]]></identifier>
+      <content><![CDATA[<div class="block-sidebar-additional">
+<div class="banner-sidebar">
+<a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/banner-sidebar.jpg&quot;}}" alt="" /></a>
+</div>
+<div class="product-sidebar">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="product-sidebar" template="productcustom.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[cms-static-about-us-title]]></title>
+      <identifier><![CDATA[cms-static-about-us-title]]></identifier>
+      <content><![CDATA[<div class="cms-static-about-us-title about-us-title">
+	<div class="content-parallax clearfix banner">
+			<div class="bg-parallax">
+				<div class="container">
+					<div class="max-inner clearfix">
+						<h2 class="big-title">About us</h2>
+						<p class="sub-title">Passion may be a friendly or eager interest in or admiration for a proposal, cause, discovery, or activity or love to a feeling of unusual excitement.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[cms-static-company-worker]]></title>
+      <identifier><![CDATA[cms-static-company-worker]]></identifier>
+      <content><![CDATA[<div class="cms-static-company-worker company-worker">
+<div class="container">
+<div class="row">
+<div class="item">
+<div class="img"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/cms/people1.jpg"}}" alt="" /></a></div>
+<div class="info">
+<h3 class="name"><a href="#">Thomas snow</a></h3>
+<p class="working">Ceo / founder</p>
+</div>
+</div>
+<div class="item">
+<div class="img"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/cms/people2.jpg"}}" alt="" /></a></div>
+<div class="info">
+<h3 class="name"><a href="#">Anna baranov</a></h3>
+<p class="working">Client care</p>
+</div>
+</div>
+<div class="item">
+<div class="img"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/cms/people3.jpg"}}" alt="" /></a></div>
+<div class="info">
+<h3 class="name"><a href="#">Andrei Kowalsy</a></h3>
+<p class="working">Support Boss</p>
+</div>
+</div>
+<div class="item">
+<div class="img"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/cms/people4.jpg"}}" alt="" /></a></div>
+<div class="info">
+<h3 class="name"><a href="#">Pamela Doe</a></h3>
+<p class="working">Delivery Driver</p>
+</div>
+</div>
+<div class="item">
+<div class="img"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/cms/people5.jpg"}}" alt="" /></a></div>
+<div class="info">
+<h3 class="name"><a href="#">Susan McCain</a></h3>
+<p class="working">Packaking Girl</p>
+</div>
+</div>
+<div class="item">
+<div class="img hr"><a href="#"><span class="first">We are</span> <span class="last">Hiring!</span></a></div>
+<div class="info">
+<h3 class="name"><a href="#">See details</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[cms-static-detail-about]]></title>
+      <identifier><![CDATA[cms-static-detail-about]]></identifier>
+      <content><![CDATA[<div class="cms-static-detail-about detail-about">
+<div class="container">
+<div class="row">
+<div class="col-xl-8 col-12 left-detail-about">
+<div class="row">
+<div class="col-lg-6 col-md-6  col-12 item box">
+<h3 class="title">What we really do?</h3>
+<p class="text">Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna, vitae ultrices lacus purus vitae metus. Ut nec odio facilisis, ultricies nunc eget, fringilla orci.</p>
+</div>
+<div class="col-lg-6 col-md-6 col-12 item box">
+<h3 class="title">Our version</h3>
+<p class="text">Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur. Vestibulum velit nibh, egestas vel faucibus vitae.</p>
+</div>
+<div class="col-lg-6 col-md-6 col-12  item box">
+<h3 class="title">History of the company</h3>
+<p class="text">Mauris rhoncus aliquet purus, a ornare nisi euismod in. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam imperdiet eu metus vel ornare. Nullam in risus vel orci feugiat vestibulum. In sed aliquam mi. Nullam condimentum sollicitudin dui.</p>
+</div>
+<div class="col-lg-6 col-md-6 col-12  item box">
+<h3 class="title">Cooperate with Us!</h3>
+<p class="text">Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna, vitae ultrices lacus purus vitae metus. Ut nec odio facilisis, ultricies nunc eget, fringilla orci.</p>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-12 right-detail-about">
+<h3 class="title">What we can do for you</h3>
+<div class="box"><input id="box1" type="radio" name="toggle" checked="checked" /> <label for="box1"><em class="hidden">hidden</em></label>
+<div class="box-content">
+<h3 class="sub-title">support 24/7</h3>
+<p class="subcribe">Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.</p>
+</div>
+</div>
+<div class="box"><input id="box2" type="radio" name="toggle" /> <label for="box2"><em class="hidden">hidden</em></label>
+<div class="box-content">
+<h3 class="sub-title">Best quality</h3>
+<p class="subcribe">Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.</p>
+</div>
+</div>
+<div class="box"><input id="box3" type="radio" name="toggle" /> <label for="box3"><em class="hidden">hidden</em></label>
+<div class="box-content">
+<h3 class="sub-title">Faster delivery</h3>
+<p class="subcribe">Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.</p>
+</div>
+</div>
+<div class="box"><input id="box4" type="radio" name="toggle" /> <label for="box4"><em class="hidden">hidden</em></label>
+<div class="box-content">
+<h3 class="sub-title">Customer care</h3>
+<p class="subcribe">Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.</p>
+</div>
+</div>
+<div class="box"><input id="box5" type="radio" name="toggle" /> <label for="box5"><em class="hidden">hidden</em></label>
+<div class="box-content">
+<h3 class="sub-title">Over 200 Satisfied Customers</h3>
+<p class="subcribe">Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Block Category Menu Video games consoles]]></title>
+      <identifier><![CDATA[cms-static-banner-menu-bottom]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu-top banner-menu-top"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/megamenu-bottom.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Category Menu Motorbike]]></title>
+      <identifier><![CDATA[cms-static-banner-menu-right]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu-right banner-menu-right">
+<div class="banner-menu-box"><a href="#"><img class="img-reponsive" src="{{media url="wysiwyg/alothemes/static/megamenu-right.jpg"}}" alt="" /></a></div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Smartphones tablets]]></title>
+      <identifier><![CDATA[smartphones-static-banner-menu-bottom]]></identifier>
+      <content><![CDATA[<div class="img-menu">
+		<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/megamenu-bottom.png"}}" alt="" /></a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_text_contacts]]></title>
+      <identifier><![CDATA[block_text_contacts]]></identifier>
+      <content><![CDATA[<div class="more-info">
+    <div class="detail-info">
+        <h3 class="title">Our Store</h3>
+        <div class="contact-info">
+            17 Princess Road <br>
+            London, Greater London<br>
+            NW1 8JR, UK
+        </div>
+        <div class="open-time">
+            <h3 class="sub-title">Hours of Operation</h3>
+            <ul class="time-list">
+                <li>
+                    <span class="day">Monday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Tuesday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Wednesday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Thursday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Friday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Saturday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Sunday:</span>
+                    <span class="time">Closed</span>
+                </li>
+            </ul>
+        </div>
+        <div class="care">
+            <h3 class="sub-title">Careers</h3>
+            <p class="text">If you&rsquo;re interested in employment opportunities at Electro, please email us: <a href="#" class="mail">contact@yourstore.com</a></p>
+        </div>
+    </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_contact_map]]></title>
+      <identifier><![CDATA[block_contact_map]]></identifier>
+      <content><![CDATA[<div class="google-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4963.1910644747795!2d-0.152588!3d51.538978!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ae630af7ac1%3A0x35c7d84d52901877!2sPrincess+Rd%2C+Primrose+Hill%2C+London+NW1+8JR%2C+UK!5e0!3m2!1sen!2sus!4v1564478565855!5m2!1sen!2sus" width="1920" height="514" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Three Custom Product 2]]></title>
+      <identifier><![CDATA[cms-static-mix-custom-product2]]></identifier>
+      <content><![CDATA[<div id="cms-static-mix-custom-product" class="cms-static-mix-custom-product">
+    <div class="container">
+        <div class="row">
+            <div class="mix-product-box magic-featured-product">
+                {{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-featured-product" template="productcustom.phtml"}}
+            </div>
+            <div class="mix-product-box magic-onsale-product">
+                {{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-onsale-product" template="productcustom.phtml"}}
+            </div>
+            <div class="mix-product-box magic-bestseller-product">
+                {{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-bestseller-product" template="productcustom.phtml"}}
+            </div>
+            <div class="mix-product-box banner-product"><a href="#"><img
+                        src="{{media url="wysiwyg/alothemes/static/demo1/banner3.jpg"}}" alt="" width="329" height="359" /></a></div>
+        </div>
+    </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[payment_method]]></title>
+      <identifier><![CDATA[payment_method]]></identifier>
+      <content><![CDATA[<div class="main2">
+	<ul class="footer-menu">
+		<li class="menu-item"><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/method.png&quot;}}" alt="" /></a></li>
+	</ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-shop-link]]></title>
+      <identifier><![CDATA[header-shop-link]]></identifier>
+      <content><![CDATA[	<div class="header-top-link shop-link">
+							<a href="#"><i class="ec ec-map-pointer"></i>Store locator</a>							
+						</div>
+<div class="header-top-link shop-link">
+							<a href="{{store url="trackorder"}}"><i class="ec ec-transport"></i>Track your order</a>
+						</div>
+<div class="header-top-link shop-link">
+							<a href="#"><i class="ec ec-shopping-bag"></i>Shop</a>
+						</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[newsletter_popup]]></title>
+      <identifier><![CDATA[newsletter_popup]]></identifier>
+      <content><![CDATA[<div class="block-content">
+<div class="popup content">
+<h2 class="promo-panel-text promo-text">Get <span>25% off</span> on your <br> First Purchase !</h2>
+<div class="subcribe-box newsletter-new">
+<div class="field newsletter input-box">
+<div class="control"><input id="newsletter-popup" class="input-text" name="email" type="email" placeholder="Email Address" data-validate="{required:true, 'validate-email':true}"></div>
+</div>
+<div class="actions"><button class="action subscribe button" title="Subscribe" type="submit"> Subscribe </button></div>
+</div>
+<p class="not-interested">No Thank ! I’m not interested in this promotion</p>
+<div class="subscribe-bottom"><input type="checkbox">Don’t show this popup again</div>
+</div>
+
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[free-shipping]]></title>
+      <identifier><![CDATA[free-shipping]]></identifier>
+      <content><![CDATA[<div class="link-right">
+<a href="#">Free Shipping on Orders $50+</a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-bestsell-link]]></title>
+      <identifier><![CDATA[header-bestsell-link]]></identifier>
+      <content><![CDATA[<div class="bestsell-link">
+    <span class="title">Electro Best Selling:</span>
+    <ul class="link-sell">
+        <li><a href="#" class="top-deal">Top Deals</a></li>
+        <li><a href="#">Mobiles & Tablets Accessories</a></li>
+        <li><a href="#">Microsoft Surface Pro 3</a></li>
+        <li><a href="#">Smart Watches</a></li>
+        <li><a href="#">PlayStation 4 Pro Console</a></li>
+        <li><a href="#">Canon EOS 700D</a></li>
+        <li><a href="#">Samsung Smart TVs</a></li>
+        <li><a href="#">Home Appliances</a></li>
+        <li><a href="#" class="link-more">…More</a></li>
+    </ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-support6]]></title>
+      <identifier><![CDATA[header-support]]></identifier>
+      <content><![CDATA[<ul class="header-support">
+						<li class="support-item">
+							<a href="#"><i class="ec ec-phone"></i> +060 (800) 801-858</a>							
+						</li>
+						<li class="support-item">
+							<a href="#"><i class="ec ec-mail"></i> info@electro.com</a>							
+						</li>
+					</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-shop-link6]]></title>
+      <identifier><![CDATA[header-shop-link6]]></identifier>
+      <content><![CDATA[	<div class="header-top-link shop-link">
+							<a href="#">30 days free return</a>							
+						</div>
+<div class="header-top-link shop-link">
+							<a href="#">Free shipping for over $40</a>
+						</div>
+<div class="header-top-link shop-link">
+							<a href="#">Best worldwide delivery</a>
+						</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Category Menu Laptop]]></title>
+      <identifier><![CDATA[laptop-static-banner-menu-right]]></identifier>
+      <content><![CDATA[<div class="img-menu">
+		<a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/megamenu-4.png&quot;}}" alt="" /></a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Size Guide]]></title>
+      <identifier><![CDATA[size_guide]]></identifier>
+      <content><![CDATA[<div class="image-size"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/different-case-sizes.jpg&quot;}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[static-main-slide6]]></title>
+      <identifier><![CDATA[static-main-slide6]]></identifier>
+      <content><![CDATA[<div class="top-main-slider">
+    <div class="container">
+        <div class="slider-main-tab">
+            <div class="slider-text">
+                <h2 class="text1">End season</h2>
+                <h3 class="text2">Smartphones</h3>
+                <p class="text3">Last call for up to <span class="money"><span class="dollar">$</span>250</span> off!</p>
+                <a href="#" class="btn-buy">Start buying</a>
+            </div>
+            <div class="slider-tab">
+                <div class="alo-content-slider-tab magicproduct autoplay">
+                    <ul class="magictabs">
+                        <li class="item loaded activated" data-type="tab1">
+                            <span class="title">Gaming Monitors 65</span>
+                        </li>
+                        <li class="item loaded" data-type="tab2">
+                            <span class="title">Smartphones Sale</span>
+                        </li>
+                        <li class="item loaded" data-type="tab3">
+                            <span class="title">End Season Sale</span>
+                        </li>
+                        <li class="item loaded" data-type="tab4">
+                            <span class="title">Laptops Arrivals</span>
+                        </li>
+                        <li class="item loaded" data-type="tab5">
+                            <span class="title">Earphones - 25%</span>
+                        </li>
+                        <li class="item loaded" data-type="tab6">
+                            <span class="title">Tablets 10 inch Sale</span>
+                        </li>
+                    </ul> 
+                    <div class="content-products"  data-responsive='[{"1":"1"},{"361":"1"},{"480":"2"},{"640":"3"},{"768":"3"},{"992":"4"},{"1200":"4"},{"1920":"4"}]'>
+                        <div class="mage-magictabs mc-tab1 activated"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab1.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab2"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab2.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab3"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab3.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab4"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab4.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab5"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab3.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab6"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab4.png&quot;}}" alt="" /></div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="slider-product">
+            {{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="product-slider6" template="product.phtml"}}
+        </div>
+    </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slide Home Page 3]]></title>
+      <identifier><![CDATA[slider-primary-home-3]]></identifier>
+      <content><![CDATA[<div class="slide-showcase static-home-slide"><div class="slide-home cms-static-main-slide alo-magicslider">{{widget type="Magiccart\Magicslider\Block\Widget\Slider" identifier="slider3" class="home-slider" template="magicslider.phtml"}}</div></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slide Home Page 2.1]]></title>
+      <identifier><![CDATA[slider-primary-home-2-1]]></identifier>
+      <content><![CDATA[<div class="slide-showcase static-home-slide"><div class="slide-home cms-static-main-slide alo-magicslider">{{widget type="Magiccart\Magicslider\Block\Widget\Slider" identifier="slider2_1" class="home-slider" template="magicslider.phtml"}}</div></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>

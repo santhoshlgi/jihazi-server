@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) 2014 X.commerce, Inc. (http://www.magentocommerce.com)
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>	  
+        <referenceBlock name="links.header">
+             <block class="Magento\Customer\Block\Account\Link" name="my-account-link" as="customer-menu-account" before="-">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="true">My Account</argument>
+                </arguments>
+            </block>
+        </referenceBlock> 
+        <referenceBlock name="my-link1" remove="true" />
+    </body>
+</page>

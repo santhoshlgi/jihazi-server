@@ -1,0 +1,741 @@
+<?php
+/**
+ * Copyright ©  All rights reserved.
+ * See COPYING.txt for license details.
+ */
+declare(strict_types=1);
+
+namespace Custom\Api\Model;
+
+use Magento\Catalog\Model\Product;
+
+class HomePageManagement implements \Custom\Api\Api\HomePageManagementInterface
+{
+
+    /**
+     * {@inheritdoc}
+     */
+    public function homePageBanner($identifier)
+    {
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+        $banner = $objectManager->create(\Magiccart\Magicslider\Model\Magicslider::class);
+        $collection = $banner->getCollection();
+        $check = 0;
+        if(isset($collection)){
+            foreach($collection as $item){
+                if($item['identifier'] == $identifier){
+                    $bannerImage = $item['config'];
+                    $check = 1;
+                }
+            }
+            if($check == 1){
+                $bannerImages = json_decode($bannerImage);
+                $obj_user = (array)  $bannerImages;
+                $obj_users = (array) $obj_user['media_gallery'];
+                $obj_images = (array) $obj_users['images'];
+                $len = sizeof($obj_images);
+                foreach ($obj_images as $key => $value) {
+                    $bannersLists[] = array('bannerId' => $value->position, 'bannerImg' => 'https://smvatech.in/ecommerce/pub/media/magiccart/magicslider'.$value->file);
+                }
+                $passData = array('bannerList' => $bannersLists);
+                $data = $passData;
+        
+                $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => $data);
+            }else{
+                $notif = array('SuccessCode'=> 400 , 'message' => 'Transaction Failure' , 'data' => '');
+            }
+        }else{
+            $notif = array('SuccessCode'=> 400 , 'message' => 'Transaction Failure' , 'data' => '');
+        }
+        
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die();
+    }
+
+    public function homePageSearch($name){
+        $checks = 0;
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+        $productCollection = $objectManager->create('Magento\Catalog\Model\ResourceModel\Product\Collection');
+        /** Apply filters here */
+        $collection = $productCollection->addAttributeToSelect('*')->addAttributeToFilter('name', ['like'=>'%'.$name.'%'])
+                    ->load();
+
+        if(isset($collection)){            
+            foreach ($collection as $product){
+                $checks = 1;
+                $helperImport = $objectManager->get('\Magento\Catalog\Helper\Image');
+
+                $imageUrl = $helperImport->init($product, 'product_page_image_small')
+                                ->setImageFile($product->getSmallImage()) // image,small_image,thumbnail
+                                ->resize(380)
+                                ->getUrl();
+                $serachCollection[] = array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                'prodImage' => $imageUrl , 'isFavorite' => true 
+            );
+            }  
+            if($checks == 1){
+                $data = $serachCollection;
+                $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('products' => $data));
+            }else{
+                $notif = array('SuccessCode'=> 400 , 'message' => 'Transaction Failure' , 'data' => '');    
+            }
+        }else{
+            $notif = array('SuccessCode'=> 400 , 'message' => 'Transaction Failure' , 'data' => '');
+        }
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die();
+    } 
+    public function getCategory($parentCatId)
+    {
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // instance of object manager
+
+        $categoryRepository = $objectManager->create('Magento\Catalog\Model\CategoryRepository');
+        $parentcategories = $categoryRepository->get($parentCatId);
+        $categories = $parentcategories->getChildrenCategories();
+        $i=0;
+        $ChildCategoryValue = [];
+
+        
+        foreach($categories as $category){
+            $categorys = $objectManager->create('Magento\Catalog\Model\Category')->load($category->getId());
+            if($categorys->getImageUrl() != 'false'){
+                $ChildCategoryValue[$i] = ['categoryName' => $category->getName(), 'categoryId' => $category->getId() ,'categoryimage' => 'https://smvatech.in'.$categorys->getImageUrl()];
+            }else{
+                $ChildCategoryValue[$i] = ['categoryName' => $category->getName(), 'categoryId' => $category->getId() ,'categoryimage' => $categorys->getImageUrl()];
+            }
+            $childCat = $this->getCategory($category->getId());
+            if($childCat){
+                $ChildCategoryValue[$i]['child'] = $childCat;
+            }else{
+                $ChildCategoryValue[$i]['child'] = [];
+            }   
+            $i++;
+        }
+
+        return $ChildCategoryValue;
+    }
+
+    public function getTopCategory($parentCatId)
+    {
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // instance of object manager
+
+        $categoryRepository = $objectManager->create('Magento\Catalog\Model\CategoryRepository');
+        $parentcategories = $categoryRepository->get($parentCatId);
+        $categories = $parentcategories->getChildrenCategories();
+        $i=0;
+        $ChildCategoryValue = [];
+
+        
+        foreach($categories as $category){
+            $categorys = $objectManager->create('Magento\Catalog\Model\Category')->load($category->getId());
+            $categorys->getCustomCategoryAttributes();
+            if ($categorys->getCustomCategoryAttributes() == 1)
+            {
+                if($categorys->getImageUrl() != 'false'){
+                    $ChildCategoryValue[$i] = ['categoryName' => $category->getName(), 'categoryId' => $category->getId() ,'categoryimage' => 'https://smvatech.in'.$categorys->getImageUrl()];
+                }else{
+                    $ChildCategoryValue[$i] = ['categoryName' => $category->getName(), 'categoryId' => $category->getId() ,'categoryimage' => $categorys->getImageUrl()];
+                }
+                
+                $childCat = $this->getTopCategory($category->getId());
+                if($childCat){
+                    $ChildCategoryValue[$i]['child'] = $childCat;
+                }else{
+                    $ChildCategoryValue[$i]['child'] = array("");
+                }  
+                $i++;
+            }
+        }
+
+        return $ChildCategoryValue;
+    }
+
+    public function homePageCategories(){
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // instance of object manager
+
+        $parentCategoryId = 2; // You have to set website root category id here
+        $category = $objectManager->create('Magento\Catalog\Model\Category')->load($parentCategoryId);
+            
+        $childCategory['parent']['name'] = $category->getName();
+        $childCategory['parent']['id'] = $category->getId();
+
+        $childCategory['parent']["child"] = $this->getCategory($parentCategoryId);
+
+
+        $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('categories' => $childCategory['parent']["child"]));
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die();  
+    }
+    public function homePageTopCategories($token){
+        $send = array("Authorization: Bearer ".$token);
+        $curl1 = curl_init();
+        curl_setopt_array($curl1, array(
+        CURLOPT_URL => "https://smvatech.in/ecommerce/rest/default/V1/customers/me",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => "GET",
+        CURLOPT_HTTPHEADER => $send,
+        ));
+        $response1 = curl_exec($curl1);
+        $AllData = json_decode($response1, true);
+        if(!empty($AllData['id'])){
+            $isfav = true;
+        }else{
+            $isfav = false;
+        }
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // instance of object manager
+        $parentCategoryId = 2; // You have to set website root category id here
+        $category = $objectManager->create('Magento\Catalog\Model\Category')->load($parentCategoryId);
+        $objectManager =  \Magento\Framework\App\ObjectManager::getInstance();
+        $categorysFactory = $objectManager->get('\Magento\Catalog\Model\CategoryFactory');
+        $i=0;
+        $childCategory['parent']["child"] = $this->getTopCategory($parentCategoryId);
+        $len= sizeof($childCategory['parent']["child"]);
+        for ($i=0;$i<$len;$i++){
+            $category = $categorysFactory->create()->load($childCategory['parent']["child"][$i]['categoryId']);
+            $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*');
+            $helperImport = $objectManager->get('\Magento\Catalog\Helper\Image');
+            $productscollections = [];  
+            foreach ($categoryProducts as $product) 
+            {
+                $imageUrl = $helperImport->init($product, 'product_page_image_small')
+                                ->setImageFile($product->getSmallImage()) // image,small_image,thumbnail
+                                ->resize(380)
+                                ->getUrl();
+                 $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                 'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+            }   
+            /*$productscollection[]=array('topCategories' => array('catName'=> $childCategory['parent']["child"][$i]['categoryName'] , 'catId'=> $childCategory['parent']["child"][$i]['categoryId'] , 'bannerImg'=> $childCategory['parent']["child"][$i]['categoryimage']
+            ,'Products'=> $productscollections)); */
+            $productscollection[]=array('topCategories' => array('catName'=> $childCategory['parent']["child"][$i]['categoryName'] , 'catId'=> $childCategory['parent']["child"][$i]['categoryId'] ,'Products'=> $productscollections)); 
+              
+        }
+        if($productscollection != null){
+            $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('categoery' => $productscollection));
+        }
+        else{
+            $notif = array('SuccessCode'=> 400 ,'message' => 'Transaction Failure', 'data' => '');
+        }
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die(); 
+    }
+    public function homePageProductBrand(){
+        
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); 
+        $entityAttribute = $objectManager->get('Magento\Eav\Model\ResourceModel\Entity\Attribute');
+        $attributeid = $entityAttribute->getIdByCode('catalog_product', 'manufacturer');
+        $attributeOptionCollection = $objectManager->create('\Magento\Eav\Model\ResourceModel\Entity\Attribute\Option\Collection');
+        $attributeOptions = $attributeOptionCollection
+				->setPositionOrder('asc')
+				->setAttributeFilter($attributeid)
+				->setStoreFilter()
+				->load();
+        
+        /*$brand = $objectManager->create('Magiccart\Shopbrand\Block\Widget\Brand');
+        $collection = $brand->getBrands();
+        print_r($collection->getData());*/
+
+        $branding = $objectManager->create(\Magiccart\Shopbrand\Model\Shopbrand::class);
+        $collect = $branding->getCollection();
+        /*print_r($collect->getData());*/
+
+        foreach($attributeOptions as $value){
+            
+            foreach($collect as $val){
+                if($value->getOptionId() === $val->getOptionId())
+                {
+                    $attributedata[] = array('name' => $value->getDefaultValue() , 'brandId' => $value->getOptionId() , 'brandImage' => 'https://smvatech.in/ecommerce/pub/media/'.$val->getImage() );
+                    break;
+                }
+            }
+        }
+        if($attributedata != null){
+            $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('Brands' => $attributedata));
+        }
+        else{
+            $notif = array('SuccessCode'=> 400 ,'message' => 'Transaction Failure', 'data' => '');
+        }
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die();
+
+
+    }
+        public function homePageProductBrandOptions()
+        {
+           $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+           $attributeData = $objectManager->get(\Magento\Eav\Model\Entity\Attribute::class)
+          ->loadByCode('catalog_product', 'manufacturer');
+
+         //get attribute options
+         $attributeOptionCollection = $objectManager->create('\Magento\Eav\Model\ResourceModel\Entity\Attribute\Option\Collection');
+         $attributeOptions = $attributeOptionCollection
+                ->setPositionOrder('asc')
+                ->setAttributeFilter($attributeData->getAttributeId())
+                ->setStoreFilter()
+                ->load();
+
+        foreach ($attributeOptions as $option) {
+        $attributedata[] = array('name' => $option->getDefaultValue() , 'brandId' => $option->getOptionId() );
+        }
+        if($attributedata != null){
+            $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('Brands' => $attributedata));
+        }
+        else{
+            $notif = array('SuccessCode'=> 400 ,'message' => 'Transaction Failure', 'data' => '');
+        }
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die();
+    }
+
+    /*changes start*/
+    public function productList($token,$categoryId,$subcategoryId,$pageNo,$pageSize,$key,$value,$skey,$sorder){
+        $send = array("Authorization: Bearer ".$token);
+        $curl1 = curl_init();
+        curl_setopt_array($curl1, array(
+        CURLOPT_URL => "https://smvatech.in/ecommerce/rest/default/V1/customers/me",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => "GET",
+        CURLOPT_HTTPHEADER => $send,
+        ));
+        $response1 = curl_exec($curl1);
+        $AllData = json_decode($response1, true);
+        if(!empty($AllData['id'])){
+            $isfav = true;
+        }else{
+            $isfav = false;
+        }
+
+        $pageNumber = $pageNo;
+        $pageLimit = $pageSize;
+        $start = $key;
+        $end = $value;
+
+
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // instance of object manager
+        $request = $objectManager->get('\Magento\Framework\App\RequestInterface');
+
+        /*$pageNo=($request->getPost('pageNo'))? $request->getPost('pageNo') : 1;
+        $pageSize=($request->getPost('pageSize'))? $request->getPost('pageSize') : 1;
+
+        $from=($request->getPost('from'))? $request->getPost('from') : 1;
+        $to=($request->getPost('to'))? $request->getPost('to') : 1;*/
+
+        $name= $request->getPost('name');
+        $price= $request->getPost('price');
+        $weight= $request->getPost('weight');
+        
+        /*$parentCategoryId = 2; // You have to set website root category id here*/
+        $parentCategoryId = $categoryId; // You have to set website root category id here
+        $childCategoryId = $subcategoryId;
+        $category = $objectManager->create('Magento\Catalog\Model\Category')->load($parentCategoryId);
+        $objectManager =  \Magento\Framework\App\ObjectManager::getInstance();
+        $categorysFactory = $objectManager->get('\Magento\Catalog\Model\CategoryFactory');
+        $i=0;
+        /*$childCategory['parent']["child"] = $this->getTopCategory($parentCategoryId);*/
+        $childCategory['parent']["child"] = $this->getCategory($parentCategoryId);
+        $len= sizeof($childCategory['parent']["child"]);
+
+        $storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+        $viewId = $storeManager->getStore()->getStoreId();
+        
+        for ($i=0;$i<$len;$i++){
+            $category = $categorysFactory->create()->load($childCategory['parent']["child"][$i]['categoryId']);
+            // if($skey != "null" && $key != ""){
+            //     $notif = array('FailureCode'=> 400 ,'message' => 'Plz enter only one Key Value', 'data' => '');
+            //     header("Content-Type: application/json; charset=utf-8");
+            //     $ns = json_encode($notif);
+            //     print_r($ns,false);
+            //     die();
+            // }
+            // else
+            if(isset($skey) && $skey != "null"){
+                if($sorder == 0){
+                    $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder($skey,'ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+                }else{
+                    $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder($skey,'DESC')->setPageSize($pageLimit)->setCurPage($pageNumber); 
+                }
+            }elseif(isset($key) && $key != "null"){
+                $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            }
+            
+            
+            // if(isset($name))
+            // {
+            //     if($name == 0)
+            //     {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','ASC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);;
+            //     }
+            //     elseif ($name == 1) {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','DESC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','DESC')->setPageSize($pageLimit)->setCurPage($pageNumber);;
+            //     }
+            // }
+            // elseif(isset($price))
+            // {
+            //     if($price == 0)
+            //     {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','ASC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            //     }
+            //     elseif ($price == 1) {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','DESC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','DESC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            //     }
+            // }
+            // elseif(isset($weight))
+            // {
+            //     if($price == 0)
+            //     {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','ASC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('weight','ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            //     }
+            //     elseif ($price == 1) {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','DESC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('weight','DESC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            //     }
+            // }
+            // else
+            // {
+            //     /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*');*/
+            //     $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            // }
+
+            $helperImport = $objectManager->get('\Magento\Catalog\Helper\Image');
+            $productscollections = [];
+            if($childCategory['parent']["child"][$i]['categoryId']  == $childCategoryId)
+            {
+                foreach ($categoryProducts as $product) 
+                {
+                    /*print_r($product->getData());*/
+                    $imageUrl = $helperImport->init($product, 'product_page_image_small')
+                                    ->setImageFile($product->getSmallImage()) // image,small_image,thumbnail
+                                    ->resize(380)
+                                    ->getUrl();
+                                    if(isset($skey) && $skey != "null"){
+                                            $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                                            'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                                    }else{
+                                        if($key == 'price'){
+                                            $keyprice = explode("-",$value);
+                                            if($product->getPrice() >= $keyprice[0] && $product->getPrice() <= $keyprice[1])
+                                            {
+                                                $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                                                'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                                            }
+                                        }else{
+                                            if($product->getData($key) == $value){
+                                                $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                                                'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                                            }
+                                        }
+                                    }
+                    // if($product->getPrice() >= $start && $product->getPrice() <= $end)                                   
+                    // {
+                    //     $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                    //     'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                    // }
+                }   
+                /*$productscollection[]=array('topCategories' => array('catName'=> $childCategory['parent']["child"][$i]['categoryName'] , 'catId'=> $childCategory['parent']["child"][$i]['categoryId'] , 'bannerImg'=> $childCategory['parent']["child"][$i]['categoryimage']
+                ,'Products'=> $productscollections)); */
+                $productscollection[]=array('subCategories' => array('catName'=> $childCategory['parent']["child"][$i]['categoryName'] , 'catId'=> $childCategory['parent']["child"][$i]['categoryId'] , 'viewId'=> $viewId , 'Products'=> $productscollections)); 
+            }
+        }
+
+        if($productscollection != null){
+            $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('categoery' => $productscollection));
+        }
+        else{
+            $notif = array('FailureCode'=> 400 ,'message' => 'Transaction Failure', 'data' => '');
+        }
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die(); 
+    }
+
+
+    public function categorySearch($token,$categoryName,$pageNo,$pageSize,$key,$value,$skey,$sorder){
+
+        $send = array("Authorization: Bearer ".$token);
+        $curl1 = curl_init();
+        curl_setopt_array($curl1, array(
+        CURLOPT_URL => "https://smvatech.in/ecommerce/rest/default/V1/customers/me",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => "GET",
+        CURLOPT_HTTPHEADER => $send,
+        ));
+        $response1 = curl_exec($curl1);
+        $AllData = json_decode($response1, true);
+        if(!empty($AllData['id'])){
+            $isfav = true;
+        }else{
+            $isfav = false;
+        }
+
+        $pageNumber = $pageNo;
+        $pageLimit = $pageSize;
+        $start = $key;
+        $end = $value;
+
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // instance of object manager
+        $request = $objectManager->get('\Magento\Framework\App\RequestInterface');
+
+        /*$page=($request->getPost('pageNo'))? $request->getPost('pageNo') : 1;
+        $pageSize=($request->getPost('pageSize'))? $request->getPost('pageSize') : 1;
+
+        $from=($request->getPost('from'))? $request->getPost('from') : 1;
+        $to=($request->getPost('to'))? $request->getPost('to') : 1;*/
+
+        
+        $name= $request->getPost('name');
+        
+        $price= $request->getPost('price');
+        
+        /*$categoryId = $request->getPost('categoryId');*/
+        
+        /*$categoryName = $request->getPost('categoryName');*/
+        
+
+        /*$parentCategoryId = 2; // You have to set website root category id here*/
+        /*$parentCategoryId = $categoryId; // You have to set website root category id here*/
+        /*$category = $objectManager->create('Magento\Catalog\Model\Category')->load($parentCategoryId);
+        $objectManager =  \Magento\Framework\App\ObjectManager::getInstance();*/
+        $categorysFactory = $objectManager->get('\Magento\Catalog\Model\CategoryFactory');
+        $i=0;
+        /*$childCategory['parent']["child"] = $this->getTopCategory($parentCategoryId);*/
+        
+        $storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+        $viewId = $storeManager->getStore()->getStoreId();
+        
+        $cname = $categoryName;
+        /*
+        if(isset($categoryId))
+        {
+            $category = $categorysFactory->create()->load($parentCategoryId);
+            $childCategory['parent']["child"] = $this->getCategory($parentCategoryId);
+        }*/
+        
+
+        if(isset($cname))
+        {
+            // $collection = $categorysFactory->create()->getCollection()->addAttributeToFilter('name',$cname);
+            $collection = $categorysFactory->create()->getCollection()->addAttributeToFilter(
+                [
+                 ['attribute' => 'name', 'like' => '%'.$cname.'%']
+                ]);
+            if ($collection->getSize()) {
+                $catId = $collection->getFirstItem()->getId();
+            }
+            if(isset($catId))
+            {
+                $category = $categorysFactory->create()->load($catId);
+                $childCategory['parent']["child"] = $this->getCategory($catId);
+            }
+        }
+        if(isset($childCategory['parent']["child"]))
+        {
+            $len= sizeof($childCategory['parent']["child"]);
+            // if($sorder == 0){
+            //     $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder($key,'ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            // }else{
+            //     $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder($key,'DESC')->setPageSize($pageLimit)->setCurPage($pageNumber); 
+            // }
+            if($skey != "" && $key != ""){
+                $notif = array('FailureCode'=> 400 ,'message' => 'Plz enter only one Key Value', 'data' => '');
+                header("Content-Type: application/json; charset=utf-8");
+                $ns = json_encode($notif);
+                print_r($ns,false);
+                die();
+            }
+            elseif(isset($skey)){
+                if($sorder == 0){
+                    $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder($skey,'ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+                }else{
+                    $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder($skey,'DESC')->setPageSize($pageLimit)->setCurPage($pageNumber); 
+                }
+            }elseif(isset($key)){
+                $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            }
+            // if(isset($name))
+            // {
+            //     if($name == 0)
+            //     {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','ASC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);;
+            //     }
+            //     elseif ($name == 1) {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','DESC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('name','DESC')->setPageSize($pageLimit)->setCurPage($pageNumber);;
+            //     }
+            // }
+            // elseif(isset($price))
+            // {
+            //     if($price == 0)
+            //     {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','ASC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','ASC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            //     }
+            //     elseif ($price == 1) {
+            //         /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','DESC');*/
+            //         $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setOrder('price','DESC')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            //     }
+            // }
+            // else
+            // {
+            //     /*$categoryProducts = $category->getProductCollection()->addAttributeToSelect('*');*/
+            //     $categoryProducts = $category->getProductCollection()->addAttributeToSelect('*')->setPageSize($pageLimit)->setCurPage($pageNumber);
+            // }
+            
+            $helperImport = $objectManager->get('\Magento\Catalog\Helper\Image');
+            $productscollections = [];
+            foreach ($categoryProducts as $product) 
+            {
+                /*print_r($product->getData());*/
+                $imageUrl = $helperImport->init($product, 'product_page_image_small')
+                                ->setImageFile($product->getSmallImage()) // image,small_image,thumbnail
+                                ->resize(380)
+                                ->getUrl();
+                                if($skey != ""){
+                                    $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                                    'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                            }else{
+                                if($key == 'price'){
+                                    $keyprice = explode("-",$value);
+                                    if($product->getPrice() >= $keyprice[0] && $product->getPrice() <= $keyprice[1])
+                                    {
+                                        $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                                        'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                                    }
+                                }else{
+                                    if($product->getData($key) == $value){
+                                        $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                                        'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                                    }
+                                }
+                            }
+                // if($product->getPrice() >= $from && $product->getPrice() <= $to)
+                // {
+                //     $productscollections[] =  array('prodId' => $product->getId() , 'prodName' => $product->getName() , 'prodAmount' => $product->getPrice() ,
+                //     'prodImage' => $imageUrl , 'isFavorite' => $isfav  );
+                // }
+            }   
+            /*$productscollection[]=array('topCategories' => array('catName'=> $childCategory['parent']["child"][$i]['categoryName'] , 'catId'=> $childCategory['parent']["child"][$i]['categoryId'] , 'bannerImg'=> $childCategory['parent']["child"][$i]['categoryimage']
+                ,'Products'=> $productscollections)); */
+            /*$productscollection[]=array('Products'=> $productscollections); */
+                  
+            
+
+            if($productscollections != null){
+                /*$notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('categoery' => $productscollection));*/
+                $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('Products'=> $productscollections));
+                
+            }
+            else{
+                $notif = array('FailureCode'=> 400 ,'message' => 'Category Not Found', 'data' => '');
+            }
+        }
+        else
+        {
+                $notif = array('FailureCode'=> 400 ,'message' => 'Category Not Found', 'data' => '');
+        }
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die(); 
+    } 
+
+
+    public function getSubCategoryList($token,$categoryId){
+        $send = array("Authorization: Bearer ".$token);
+        $curl1 = curl_init();
+        curl_setopt_array($curl1, array(
+        CURLOPT_URL => "https://smvatech.in/ecommerce/rest/default/V1/customers/me",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => "GET",
+        CURLOPT_HTTPHEADER => $send,
+        ));
+        $response1 = curl_exec($curl1);
+        $AllData = json_decode($response1, true);
+        if(!empty($AllData['id'])){
+            $isfav = true;
+        }else{
+            $isfav = false;
+        }
+
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // instance of object manager
+        $request = $objectManager->get('\Magento\Framework\App\RequestInterface');
+
+        /*$parentCategoryId = 2; // You have to set website root category id here*/
+        $parentCategoryId = $categoryId; // You have to set website root category id here
+        $category = $objectManager->create('Magento\Catalog\Model\Category')->load($parentCategoryId);
+        $categorysFactory = $objectManager->get('\Magento\Catalog\Model\CategoryFactory');
+        $i=0;
+        /*$childCategory['parent']["child"] = $this->getTopCategory($parentCategoryId);*/
+        $childCategory['parent']["child"] = $this->getCategory($parentCategoryId);
+        $len= sizeof($childCategory['parent']["child"]);
+
+        $storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+        $viewId = $storeManager->getStore()->getStoreId();
+        
+        for ($i=0;$i<$len;$i++){
+            $category = $categorysFactory->create()->load($childCategory['parent']["child"][$i]['categoryId']);
+            
+            $categoryscollection[]=array('subCategories' => array('catName'=> $childCategory['parent']["child"][$i]['categoryName'] , 'catId'=> $childCategory['parent']["child"][$i]['categoryId'] , 'categoryImg'=> $childCategory['parent']["child"][$i]['categoryimage'])); 
+              
+        }
+
+        if(isset($categoryscollection))
+        {
+            if($categoryscollection != null){
+                $notif = array('SuccessCode'=> 200 ,'message' => 'Transaction was Successful', 'data' => array('categoery' => $categoryscollection));
+            }
+            else{
+                $notif = array('FailureCode'=> 400 ,'message' => 'Transaction Failure', 'data' => '');
+            }
+        }
+        else{
+            $notif = array('FailureCode'=> 400 ,'message' => 'Transaction Failure', 'data' => '');
+        }
+        header("Content-Type: application/json; charset=utf-8");
+        $ns = json_encode($notif);
+        print_r($ns,false);
+        die(); 
+    }
+    /*changes end*/
+    
+
+
+}
+

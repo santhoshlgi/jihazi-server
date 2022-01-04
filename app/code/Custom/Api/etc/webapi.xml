@@ -1,0 +1,245 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+	<route url="/V1/custom-api/login" method="POST">
+		<service class="Custom\Api\Api\LoginManagementInterface" method="postLogin"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/register" method="POST">
+		<service class="Custom\Api\Api\RegistrationManagementInterface" method="registerDetails"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/forgetpassword" method="POST">
+		<service class="Custom\Api\Api\ForgetManagementInterface" method="forgetPassword"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/resetpassword" method="POST">
+		<service class="Custom\Api\Api\ResetManagementInterface" method="resetPassword"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/homepage/banner" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="homePageBanner"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/homepage/search" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="homePageSearch"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/homepage/categories" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="homePageCategories"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/homepage/topcategories" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="homePageTopCategories"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/homepage/brands" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="homePageProductBrand"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/homepage/topbrands" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="homePageProductBrandOptions"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<!-- changes start -->
+	<route url="/V1/custom-api/homepage/productlist" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="productList"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/custom-api/homepage/categorysearch" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="categorySearch"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/custom-api/homepage/getwishlistproduct" method="POST">
+		<service class="Custom\Api\Api\ProductManagementInterface" method="getWishlistProduct"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/custom-api/homepage/savereview" method="POST">
+		<service class="Custom\Api\Api\ProductManagementInterface" method="saveReview"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/custom-api/homepage/getproductdetails" method="POST">
+		<service class="Custom\Api\Api\ProductManagementInterface" method="getProductDetails"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+
+	<route url="/V1/custom-api/homepage/getsubcategorylist" method="POST">
+		<service class="Custom\Api\Api\HomePageManagementInterface" method="getSubCategoryList"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<!-- changes end -->
+	<route url="/V1/custom-api/homepage/getcartproduct" method="POST">
+		<service class="Custom\Api\Api\ProductManagementInterface" method="getCartProduct"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/shippingaddress/add" method="POST">
+		<service class="Custom\Api\Api\RegistrationManagementInterface" method="addShippingAddress"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/shippingaddress/delete" method="POST">
+		<service class="Custom\Api\Api\RegistrationManagementInterface" method="deleteShippingAddress"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/shippingaddress/list" method="POST">
+		<service class="Custom\Api\Api\RegistrationManagementInterface" method="listShippingAddress"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/shippingaddress/edit" method="POST">
+		<service class="Custom\Api\Api\RegistrationManagementInterface" method="editShippingAddress"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/wishlist/add" method="POST">
+		<service class="Custom\Api\Api\WishlistManagementInterface" method="addWishlist"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/wishlist/remove" method="POST">
+		<service class="Custom\Api\Api\WishlistManagementInterface" method="removeWishlist"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/product/addtocart" method="POST">
+		<service class="Custom\Api\Api\ProductManagementInterface" method="addtocartProduct"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/product/removeCart" method="POST">
+		<service class="Custom\Api\Api\ProductManagementInterface" method="removeCartProduct"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/product/updateCart" method="POST">
+		<service class="Custom\Api\Api\ProductManagementInterface" method="updateCartProduct"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/shippingaddress/countryList" method="POST">
+		<service class="Custom\Api\Api\RegistrationManagementInterface" method="countryListShippingAddress"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/order/myOrders" method="POST">
+		<service class="Custom\Api\Api\OrderManagementInterface" method="myOrdersList"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/order/details" method="POST">
+		<service class="Custom\Api\Api\OrderManagementInterface" method="detailsOrders"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/order/applycoupon" method="POST">
+		<service class="Custom\Api\Api\OrderManagementInterface" method="applycouponOrders"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/order/removecoupon" method="POST">
+		<service class="Custom\Api\Api\OrderManagementInterface" method="removecouponOrders"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/order/updatestatus" method="POST">
+		<service class="Custom\Api\Api\OrderManagementInterface" method="updatestatusOrders"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/order/createorder" method="POST">
+		<service class="Custom\Api\Api\OrderManagementInterface" method="createOrders"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/user/myaccount" method="POST">
+		<service class="Custom\Api\Api\ResetManagementInterface" method="myaccountusers"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/user/profilepage" method="POST">
+		<service class="Custom\Api\Api\ResetManagementInterface" method="profilepageusers"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/user/editprofile" method="POST">
+		<service class="Custom\Api\Api\ResetManagementInterface" method="editprofileusers"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/user/contactus" method="POST">
+		<service class="Custom\Api\Api\ResetManagementInterface" method="contactususers"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/user/faq" method="POST">
+		<service class="Custom\Api\Api\ResetManagementInterface" method="faqusers"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+	<route url="/V1/custom-api/user/changepassword" method="POST">
+		<service class="Custom\Api\Api\ResetManagementInterface" method="changepasswordusers"/>
+		<resources>
+			<resource ref="anonymous"/>
+		</resources>
+	</route>
+</routes>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="custom" translate="label" sortOrder="10">
+            <label>Custom</label>
+        </tab>
+        <section id="api" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>API</label>
+            <tab>custom</tab>
+            <resource>Custom_Api::api_config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General Configuration</label>
+                <field id="api_admin" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Admin Username</label>
+                </field>
+                <field id="api_password" translate="label" type="password" sortOrder="3" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Admin Password</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

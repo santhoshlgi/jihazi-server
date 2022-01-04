@@ -1,0 +1,201 @@
+& when (@media-common = true) {
+	.shopbrand-brand-listbrand {
+		.page-title-wrapper {
+			text-align: center;
+			.page-title {
+				display:inline-block;
+			}
+		}
+		.grid-slider {
+			display: none;
+		}
+		.grid-init {
+			.grid-slider {
+				display: block;
+			}
+		}
+	}
+	.shopbrand{
+		text-align: center;
+		display:block
+	}
+	.shop-by-brand {
+        text-align: center;
+        .block {
+            &.block-search {
+                display: block;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+	}
+	.shopbrand-list {
+		clear: both;
+	}
+    .block-search {
+        &.brand-search {
+            text-align: center;
+            .form-search {
+                .field {
+                    &.search {
+                        position: relative;
+                        border: 1px solid #ebebeb;
+                        
+                        .control-search {
+                            input {
+                                height: 45px;
+                                padding-right: 40px;
+                                border: 0;
+                            }
+                        }
+                        .actions {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            .action {
+                                background-color: #fff;
+                                width: 40px;
+                                height: 45px;
+                                line-height: 43px;
+                                text-align: center;
+                                padding: 0;
+                                span {
+                                    display: none;
+                                }
+                                &:before {
+                                    -webkit-font-smoothing: antialiased;
+                                    -moz-osx-font-smoothing: grayscale;
+                                    font-size: 2.8rem;
+                                    line-height: 28px;
+                                    color: #8f8f8f;
+                                    content: '\e615';
+                                    font-family: @icon-font;
+                                    
+                                    vertical-align: middle;
+                                    display: inline-block;
+                                    font-weight: normal;
+                                    overflow: hidden;
+                                    speak: none;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+                .label {
+                    &.brand-label {
+                        display: none;
+                        &:before {
+                            display: none;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+	.brand-search-sidebar{
+		.block-search {
+			max-width: 100%;
+		}
+    }
+    .form-search-sidebar-brand {
+        .field {
+            &.search {
+                position: relative;
+                border: 1px solid #ebebeb;
+                .control-search {
+                    input {
+                        height: 40px;
+                        padding-right: 40px;
+                        border: 0;
+                    }
+                }
+                .actions {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    .action {
+                        background-color: #fff;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 38px;
+                        text-align: center;
+                        padding: 0;
+                        span {
+                            display: none;
+                        }
+                        &:before {
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                            font-size: 2.2rem;
+                            line-height: 28px;
+                            color: #8f8f8f;
+                            content: '\e615';
+                            font-family: @icon-font;
+                            
+                            vertical-align: middle;
+                            display: inline-block;
+                            font-weight: normal;
+                            overflow: hidden;
+                            speak: none;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+	.characters{
+		clear: both;
+		padding: 20px 0;
+		display: inline-block;
+		.filter {
+			list-style: none;
+			float: left;
+			.char {
+				float: left;
+				a {
+					display: block;
+					border: 1px solid silver;
+					height: 36px;
+					line-height: 36px;
+					width: 36px;
+					text-align: center;
+					margin-left: 3px;
+					border-radius: 4px;
+					font-weight: 600;
+					text-transform: uppercase;
+				}
+				
+				a:hover, &.active a {
+					background-color: #006bb4;
+					color: #ffffff;
+					border: 1px solid #006bb4;
+				}
+			}
+			.view-all a {
+				text-transform: none;
+			}
+		}
+
+	}
+}
+& when (@media-common = false) {
+	@media (min-width: 768px) {
+		.shop-by-brand {
+			.block-search {
+				float: none;
+				display: inline-block;
+			}
+		}
+		.brand-search-sidebar {
+			.block.block-search {
+				float: none;
+				margin-bottom: 0;
+				padding-left: 0;
+			}			
+		}
+	}
+}

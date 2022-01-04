@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <lookbook>
+    <item>
+      <title><![CDATA[lookbook home 6]]></title>
+      <identifier><![CDATA[lookbook-6]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <link><![CDATA[example.com]]></link>
+      <image><![CDATA[magiccart/lookbook/s/v/svsvsv.jpg]]></image>
+      <options><![CDATA[{"magic_pin":{"0":{"content":"Shose Nike(#5)","undefined":"Save pin","product_id":"5","classes":"pop-over-right","coords":{"lat":"671","long":"267"}},"1":{"content":"Shose Adidas(#6)","undefined":"Save pin","product_id":"6","classes":"pop-over-right","coords":{"lat":"849","long":"435"}},"canvas":{"src":"http://wp2cart.com/gokko/pub/media/magiccart/lookbook/s/v/svsvsv.jpg","width":1920,"height":545}}}]]></options>
+      <stores><![CDATA[0]]></stores>
+      <order><![CDATA[0]]></order>
+      <status><![CDATA[1]]></status>
+    </item>
+  </lookbook>
+</root>

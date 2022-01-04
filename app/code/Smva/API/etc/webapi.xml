@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/json/orders/show/:id" method="GET">
+        <service class="Magento\Sales\Api\OrderRepositoryInterface" method="get"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_view" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show" method="GET">
+        <service class="Magento\Sales\Api\OrderRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_view" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:id/statuses" method="GET">
+        <service class="Magento\Sales\Api\OrderManagementInterface" method="getStatus"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_view" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:id/cancel" method="POST">
+        <service class="Magento\Sales\Api\OrderManagementInterface" method="cancel"/>
+        <resources>
+            <resource ref="Magento_Sales::cancel" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:id/emails" method="POST">
+        <service class="Magento\Sales\Api\OrderManagementInterface" method="notify"/>
+        <resources>
+            <resource ref="Magento_Sales::emails" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:id/hold" method="POST">
+        <service class="Magento\Sales\Api\OrderManagementInterface" method="hold"/>
+        <resources>
+            <resource ref="Magento_Sales::hold" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:id/unhold" method="POST">
+        <service class="Magento\Sales\Api\OrderManagementInterface" method="unHold"/>
+        <resources>
+            <resource ref="Magento_Sales::unhold" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:id/comments" method="POST">
+        <service class="Magento\Sales\Api\OrderManagementInterface" method="addComment"/>
+        <resources>
+            <resource ref="Magento_Sales::comment" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:id/comments" method="GET">
+        <service class="Magento\Sales\Api\OrderManagementInterface" method="getCommentsList"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_view" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/create" method="PUT">
+        <service class="Magento\Sales\Api\OrderRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Magento_Sales::create" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/:parent_id" method="PUT">
+        <service class="Magento\Sales\Api\OrderAddressRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Magento_Sales::create" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/items/:id" method="GET">
+        <service class="Magento\Sales\Api\OrderItemRepositoryInterface" method="get"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_view" />
+        </resources>
+    </route>
+    <route url="/V1/json/orders/show/items" method="GET">
+        <service class="Magento\Sales\Api\OrderItemRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_view" />
+        </resources>
+    </route>
+    <route url="/V1/json/order/show:orderId/refund" method="POST">
+        <service class="Magento\Sales\Api\RefundOrderInterface" method="execute"/>
+        <resources>
+            <resource ref="Magento_Sales::creditmemo" />
+        </resources>
+    </route>
+    <route url="/V1/json/order/show:orderId/ship" method="POST">
+        <service class="Magento\Sales\Api\ShipOrderInterface" method="execute"/>
+        <resources>
+            <resource ref="Magento_Sales::ship" />
+        </resources>
+    </route>
+    <route url="/V1/json/order/show:orderId/invoice" method="POST">
+        <service class="Magento\Sales\Api\InvoiceOrderInterface" method="execute"/>
+        <resources>
+            <resource ref="Magento_Sales::invoice" />
+        </resources>
+    </route>
+</routes>

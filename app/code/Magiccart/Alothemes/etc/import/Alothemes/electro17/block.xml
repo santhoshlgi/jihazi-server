@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Block Three Custom Product]]></title>
+      <identifier><![CDATA[cms-static-mix-custom-product]]></identifier>
+      <content><![CDATA[<div id="cms-static-mix-custom-product" class="cms-static-mix-custom-product">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 magic-featured-product">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-featured-product" template="productcustom.phtml"}}</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 magic-onsale-product">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-onsale-product" template="productcustom.phtml"}}</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 magic-bestseller-product">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="magic-bestseller-product" template="productcustom.phtml"}}</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[cms-static-about-us-title]]></title>
+      <identifier><![CDATA[cms-static-about-us-title]]></identifier>
+      <content><![CDATA[<div class="cms-static-about-us-title about-us-title">
+	<div class="content-parallax clearfix banner">
+			<div class="bg-parallax">
+				<div class="container">
+					<div class="max-inner clearfix">
+						<h2 class="big-title">About us</h2>
+						<p class="sub-title">Passion may be a friendly or eager interest in or admiration for a proposal, cause, discovery, or activity or love to a feeling of unusual excitement.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Block Category Menu Video games consoles]]></title>
+      <identifier><![CDATA[cms-static-banner-menu-bottom]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu-top banner-menu-top"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/megamenu-bottom.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Category Menu Motorbike]]></title>
+      <identifier><![CDATA[cms-static-banner-menu-right]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu-right banner-menu-right">
+<div class="banner-menu-box"><a href="#"><img class="img-reponsive" src="{{media url="wysiwyg/alothemes/static/megamenu-right.jpg"}}" alt="" /></a></div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Smartphones tablets]]></title>
+      <identifier><![CDATA[smartphones-static-banner-menu-bottom]]></identifier>
+      <content><![CDATA[<div class="img-menu">
+		<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/megamenu-bottom.png"}}" alt="" /></a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_text_contacts]]></title>
+      <identifier><![CDATA[block_text_contacts]]></identifier>
+      <content><![CDATA[<div class="more-info">
+    <div class="detail-info">
+        <h3 class="title">Our Store</h3>
+        <div class="contact-info">
+            17 Princess Road <br>
+            London, Greater London<br>
+            NW1 8JR, UK
+        </div>
+        <div class="open-time">
+            <h3 class="sub-title">Hours of Operation</h3>
+            <ul class="time-list">
+                <li>
+                    <span class="day">Monday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Tuesday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Wednesday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Thursday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Friday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Saturday:</span>
+                    <span class="time">12-6 PM</span>
+                </li>
+                <li>
+                    <span class="day">Sunday:</span>
+                    <span class="time">Closed</span>
+                </li>
+            </ul>
+        </div>
+        <div class="care">
+            <h3 class="sub-title">Careers</h3>
+            <p class="text">If you&rsquo;re interested in employment opportunities at Electro, please email us: <a href="#" class="mail">contact@yourstore.com</a></p>
+        </div>
+    </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_contact_map]]></title>
+      <identifier><![CDATA[block_contact_map]]></identifier>
+      <content><![CDATA[<div class="google-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4963.1910644747795!2d-0.152588!3d51.538978!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ae630af7ac1%3A0x35c7d84d52901877!2sPrincess+Rd%2C+Primrose+Hill%2C+London+NW1+8JR%2C+UK!5e0!3m2!1sen!2sus!4v1564478565855!5m2!1sen!2sus" width="1920" height="514" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[payment_method]]></title>
+      <identifier><![CDATA[payment_method]]></identifier>
+      <content><![CDATA[<div class="main2">
+	<ul class="footer-menu">
+		<li class="menu-item"><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/method.png&quot;}}" alt="" /></a></li>
+	</ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-shop-link]]></title>
+      <identifier><![CDATA[header-shop-link]]></identifier>
+      <content><![CDATA[	<div class="header-top-link shop-link">
+							<a href="#"><i class="ec ec-map-pointer"></i>Store locator</a>							
+						</div>
+<div class="header-top-link shop-link">
+							<a href="{{store url="trackorder"}}"><i class="ec ec-transport"></i>Track your order</a>
+						</div>
+<div class="header-top-link shop-link">
+							<a href="#"><i class="ec ec-shopping-bag"></i>Shop</a>
+						</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[free-shipping]]></title>
+      <identifier><![CDATA[free-shipping]]></identifier>
+      <content><![CDATA[<div class="link-right">
+<a href="#">Free Shipping on Orders $50+</a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-bestsell-link]]></title>
+      <identifier><![CDATA[header-bestsell-link]]></identifier>
+      <content><![CDATA[<div class="bestsell-link">
+    <span class="title">Electro Best Selling:</span>
+    <ul class="link-sell">
+        <li><a href="#" class="top-deal">Top Deals</a></li>
+        <li><a href="#">Mobiles & Tablets Accessories</a></li>
+        <li><a href="#">Microsoft Surface Pro 3</a></li>
+        <li><a href="#">Smart Watches</a></li>
+        <li><a href="#">PlayStation 4 Pro Console</a></li>
+        <li><a href="#">Canon EOS 700D</a></li>
+        <li><a href="#">Samsung Smart TVs</a></li>
+        <li><a href="#">Home Appliances</a></li>
+        <li><a href="#" class="link-more">…More</a></li>
+    </ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-support6]]></title>
+      <identifier><![CDATA[header-support]]></identifier>
+      <content><![CDATA[<ul class="header-support">
+						<li class="support-item">
+							<a href="#"><i class="ec ec-phone"></i> +060 (800) 801-858</a>							
+						</li>
+						<li class="support-item">
+							<a href="#"><i class="ec ec-mail"></i> info@electro.com</a>							
+						</li>
+					</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-shop-link6]]></title>
+      <identifier><![CDATA[header-shop-link6]]></identifier>
+      <content><![CDATA[	<div class="header-top-link shop-link">
+							<a href="#">30 days free return</a>							
+						</div>
+<div class="header-top-link shop-link">
+							<a href="#">Free shipping for over $40</a>
+						</div>
+<div class="header-top-link shop-link">
+							<a href="#">Best worldwide delivery</a>
+						</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Category Menu Laptop]]></title>
+      <identifier><![CDATA[laptop-static-banner-menu-right]]></identifier>
+      <content><![CDATA[<div class="img-menu">
+		<a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/megamenu-4.png&quot;}}" alt="" /></a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Size Guide]]></title>
+      <identifier><![CDATA[size_guide]]></identifier>
+      <content><![CDATA[<div class="image-size"><img src="{{media url=&quot;wysiwyg/alothemes/static/cms/different-case-sizes.jpg&quot;}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[static-main-slide6]]></title>
+      <identifier><![CDATA[static-main-slide6]]></identifier>
+      <content><![CDATA[<div class="top-main-slider">
+    <div class="container">
+        <div class="slider-main-tab">
+            <div class="slider-text">
+                <h2 class="text1">End season</h2>
+                <h3 class="text2">Smartphones</h3>
+                <p class="text3">Last call for up to <span class="money"><span class="dollar">$</span>250</span> off!</p>
+                <a href="#" class="btn-buy">Start buying</a>
+            </div>
+            <div class="slider-tab">
+                <div class="alo-content-slider-tab magicproduct autoplay">
+                    <ul class="magictabs">
+                        <li class="item loaded activated" data-type="tab1">
+                            <span class="title">Gaming Monitors 65</span>
+                        </li>
+                        <li class="item loaded" data-type="tab2">
+                            <span class="title">Smartphones Sale</span>
+                        </li>
+                        <li class="item loaded" data-type="tab3">
+                            <span class="title">End Season Sale</span>
+                        </li>
+                        <li class="item loaded" data-type="tab4">
+                            <span class="title">Laptops Arrivals</span>
+                        </li>
+                        <li class="item loaded" data-type="tab5">
+                            <span class="title">Earphones - 25%</span>
+                        </li>
+                        <li class="item loaded" data-type="tab6">
+                            <span class="title">Tablets 10 inch Sale</span>
+                        </li>
+                    </ul> 
+                    <div class="content-products"  data-responsive='[{"1":"1"},{"361":"1"},{"480":"2"},{"640":"3"},{"768":"3"},{"992":"4"},{"1200":"4"},{"1920":"4"}]'>
+                        <div class="mage-magictabs mc-tab1 activated"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab1.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab2"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab2.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab3"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab3.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab4"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab4.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab5"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab3.png&quot;}}" alt="" /></div>
+                        <div class="mage-magictabs mc-tab6"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo6/tab4.png&quot;}}" alt="" /></div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="slider-product">
+            {{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="product-slider6" template="product.phtml"}}
+        </div>
+    </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slide Home Page 3]]></title>
+      <identifier><![CDATA[slider-primary-home-3]]></identifier>
+      <content><![CDATA[<div class="slide-showcase static-home-slide"><div class="slide-home cms-static-main-slide alo-magicslider">{{widget type="Magiccart\Magicslider\Block\Widget\Slider" identifier="slider3" class="home-slider" template="magicslider.phtml"}}</div></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu]]></title>
+      <identifier><![CDATA[block-right-menu]]></identifier>
+      <content><![CDATA[<div class="banner-menu"><img src="{{media url="wysiwyg/alothemes/static/banner-menu-right_1.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu Banner and Sale]]></title>
+      <identifier><![CDATA[block_right_menu_banner_sale]]></identifier>
+      <content><![CDATA[<div class="menu-banner-sale"><!--<div class="menu-products-sale">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="megamenu-sale" template="product.phtml"}}</div-->
+<div class="banner-menu"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-right2.jpg"}}" alt="" /></div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu 2]]></title>
+      <identifier><![CDATA[block-right-menu2]]></identifier>
+      <content><![CDATA[<div class="banner-menu banner-menu-position">
+    <div class="text-menu-right">
+        <p class="title-top">4 in 1 KBVision</p>
+        <p class="title-content">Camera</p>
+        <p class="title-bottom">Technology in Camera</p>
+        <button type="button" class="btn btn-green">Shop now</button>
+    </div>
+    <img class="img-responsive img-menu" src="{{media url=&quot;wysiwyg/alothemes/static/demo1/01_Home1.png&quot;"}}" alt="" />
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Newsletter]]></title>
+      <identifier><![CDATA[newsletter]]></identifier>
+      <content><![CDATA[            <div class="col-lg-3 col-md-3  col-xs-12 col-rtl">
+                <div class="collapsible mobile-collapsible coll-msg">
+                    <h3 class="block-title heading">Newsletter</h3>
+                    <span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+                    <div class="block-newletter block-content block-content-statick toggle-content">
+                        {{block class="Magento\Newsletter\Block\Subscribe" template="subscribe.phtml"}}</div>
+                </div>
+            </div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[brand-bottom]]></title>
+      <identifier><![CDATA[brand-bottom]]></identifier>
+      <content><![CDATA[<div class="brand-bottom">
+<div class="container">
+<div class="main">{{widget type="Magiccart\Shopbrand\Block\Widget\Brand" template="brand.phtml"}}</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[newsletter_popup]]></title>
+      <identifier><![CDATA[newsletter_popup]]></identifier>
+      <content><![CDATA[<div class="block-content">
+    <div class="block-title">
+        <strong><span>Newsletter</span></strong>
+    </div>
+    <h2 class="promo-panel-text promo-text">Get in Touch!</h2>
+     <p class="caption">Subscribe our Newsletter today for free and be the<br/> first to get notified on new updates'</p>
+    <div class="subcribe-box newsletter-new clearfix">
+        <div class="field newsletter input-box">
+            <div class="control">
+                <input name="email" type="email" id="newsletter-popup" class="input-text"
+                    placeholder="Enter your email..."
+                    data-validate="{required:true, 'validate-email':true}" />
+            </div>
+        </div>
+        <div class="actions">
+            <button class="action subscribe button"
+                title="Subscribe" type="submit">
+                <span>Subscribe now</span>
+            </button>
+        </div>
+    </div>
+    <div class="subscribe-bottom">
+        <label for="hideforever_ypop"><input id="hideforever_ypop" class="no-view" name="no-view" type="checkbox"><span class="check_ypop"><em class="hidden">hidden</em></span> Don’t show this popup again</label>
+    </div>
+</div>
+<div class="banner-newsletter-popup"><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/popup-banner.jpg&quot;}}" alt="" /></a></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slide Home Page 2.1]]></title>
+      <identifier><![CDATA[slider-primary-home-2-1]]></identifier>
+      <content><![CDATA[<div class="slide-showcase static-home-slide"><div class="slide-home cms-static-main-slide alo-magicslider">{{widget type="Magiccart\Magicslider\Block\Widget\Slider" identifier="slider2_1" class="home-slider" template="magicslider.phtml"}}</div></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block pages menu]]></title>
+      <identifier><![CDATA[block_pages_menu]]></identifier>
+      <content><![CDATA[<ul class="level0 dropdown">
+<li class="level1"><a href="{{store url='contact'}}"><span>Contact Us</span></a></li>
+<li class="level1"><a href="{{store url='about-us'}}"><span>About Us</span></a></li>
+<li class="level1"><a href="{{store url='no-route'}}"><span>404</span></a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[store_contact]]></title>
+      <identifier><![CDATA[store_contact]]></identifier>
+      <content><![CDATA[<div class="store-contact">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 col-sm-3 col-md-3 store1">
+<div class="store-item">
+<h3 class="block-title">Store 1</h3>
+<ul class="store_info">
+<li><span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Email</span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span></p>
+</li>
+<li><span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Phone</span> <span class="tit-contain">0123-465-789-111</span> <span class="tit-contain">0123-465-789-111</span></p>
+</li>
+<li><span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Mail Office</span> <span class="tit-contain">Sed ut perspiciatis unde omnis <br /> Street Name, Los Angeles</span></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-xs-6 col-sm-3 col-md-3 store2">
+<div class="store-item">
+<h3 class="block-title">Store 2</h3>
+<ul class="store_info">
+<li><span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Email</span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span></p>
+</li>
+<li><span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Phone</span> <span class="tit-contain">0123-465-789-111</span> <span class="tit-contain">0123-465-789-111</span></p>
+</li>
+<li><span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Mail Office</span> <span class="tit-contain">Sed ut perspiciatis unde omnis <br /> Street Name, Los Angeles</span></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-xs-6 col-sm-3 col-md-3 store3">
+<div class="store-item">
+<h3 class="block-title">Store 3</h3>
+<ul class="store_info">
+<li><span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Email</span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span></p>
+</li>
+<li><span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Phone</span> <span class="tit-contain">0123-465-789-111</span> <span class="tit-contain">0123-465-789-111</span></p>
+</li>
+<li><span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Mail Office</span> <span class="tit-contain">Sed ut perspiciatis unde omnis <br /> Street Name, Los Angeles</span></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-xs-6 col-sm-3 col-md-3 store4">
+<div class="store-item">
+<h3 class="block-title">Store 4</h3>
+<ul class="store_info">
+<li><span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Email</span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span> <span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span></p>
+</li>
+<li><span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Phone</span> <span class="tit-contain">0123-465-789-111</span> <span class="tit-contain">0123-465-789-111</span></p>
+</li>
+<li><span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+<p class="flex"><span class="tit-name">Mail Office</span> <span class="tit-contain">Sed ut perspiciatis unde omnis <br /> Street Name, Los Angeles</span></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_map_contacts]]></title>
+      <identifier><![CDATA[block_map_contact]]></identifier>
+      <content><![CDATA[<div class="google-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8198099411893!2d-0.1331572846912519!3d51.51652171785794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d1416c0a3%3A0x15a26dd242ad9b66!2s12+Oxford+St%2C+Fitzrovia%2C+London+W1D+1AP%2C+V%C6%B0%C6%A1ng+Qu%E1%BB%91c+Anh!5e0!3m2!1svi!2s!4v1564482237302!5m2!1svi!2s" width="1920" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Custom Left Category  Bestseller]]></title>
+      <identifier><![CDATA[category_view_custom_block]]></identifier>
+      <content><![CDATA[<div class="block block-custom-product block-custom-left">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="best-sale" template="productcustom.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Bottom Menu]]></title>
+      <identifier><![CDATA[block-bottom-menu2]]></identifier>
+      <content><![CDATA[<div class="banner-menu banner-menu-bottom">
+        <div class="text-menu-button">
+            <p class="title-top">Authorized dealer for all kind of</p>
+            <p class="title-content">Computers & Laptop</p>
+            <button type="button" class="btn btn-green">Shop now</button>
+        </div>
+    <img class="img-responsive img-menu" src="{{media url=&quot;wysiwyg/alothemes/static/demo1/01_Home1_03.png&quot;}}" alt="" />
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Product Types]]></title>
+      <identifier><![CDATA[block-product-types]]></identifier>
+      <content><![CDATA[<ul class="level0 dropdown">
+<li class="level1"><a href="{{store direct_url="smart-tvs-from-sharpusa.html"}}"><span>Single product</span></a></li>
+<li class="level1"><a href="{{store direct_url="grouped-product.html"}}"><span>Group product</span></a></li>
+<li class="level1"><a href="{{store direct_url="configurable-product.html"}}"><span>Configurable product</span></a></li>
+<li class="level1"><a href="{{store direct_url="samsung-galaxy-smartphone.html"}}"><span>Product with Related</span></a></li>
+<li class="level1"><a href="{{store direct_url="samsung-galaxy-smartphone.html"}}"><span>Product with Upsell</span></a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[top-information-left]]></title>
+      <identifier><![CDATA[top-information-left]]></identifier>
+      <content><![CDATA[ <span>Free Shipping for all Orders of $99</span>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Top]]></title>
+      <identifier><![CDATA[block_footer_top]]></identifier>
+      <content><![CDATA[<div class="container">
+<div class="footer">
+<div class="row">
+    <div class="col-xl-4 col-lg-3 col-md-12  col-sm-12 col-rtl text-1">
+        <div class="collapsible mobile-collapsible">
+        <h3 class="block-title heading">Contact Us</h3>
+        <p class="text-footer">Est erat faucibus purus, eget viverra nulla sem vitae Quisque id sodales libero. In nec enim nisi, in ultricies quam Sed lacinia .</p>
+        <ul class="address-list">
+        <li class="feature-icon first">
+        <p class="no-margin"><span class="contact-name gokko-icon icon-location"> <span class="hidden"> hidden </span> </span> <span class="tit-text"> <span class="tit-contain"> 20 Bilian Street , Bilian Court #01<br>America 16HDK765 </span> </span></p>
+        </li>
+        <li class="feature-icon">
+        <p><span class="contact-name gokko-icon icon-envelope"> <span class="hidden"> hidden </span> </span> <span class="tit-text"> <span class="tit-name"> Phone: </span> <span class="tit-contain"> Support@Gokko.com </span> </span></p>
+        </li>
+        <li class="feature-icon">
+        <p><span class="contact-name gokko-icon icon-phone"> <span class="hidden"> hidden </span> </span> <span class="tit-text"> <span class="tit-name"> Fax: </span> <span class="tit-contain"> (+066) 123 456 7899 </span> </span></p>
+        </li>
+        </ul>
+        </div>
+    </div>
+    <div class="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-rtl text-2">
+        <div class="row-footer row">
+        <div class="col-footer-1 col-rtl col-xl-3 col-lg-3 col-md-3">
+        <div class="collapsible mobile-collapsible">
+        <h3 class="block-title heading">Why Buy From Us</h3>
+        <span class="toggle-tab mobile" style="display: none;"> <span class="hidden"> hidden </span> </span>
+        <div class="block-content block-content-statick toggle-content">
+        <ul class="bullet">
+        <li><a href="#"> Shipping &amp; Returns </a></li>
+        <li><a href="#"> Secure Shopping </a></li>
+        <li><a href="#"> International Shipping </a></li>
+        <li><a href="#"> Affiliates </a></li>
+        <li><a href="#"> Game &amp; Consoles </a></li>
+        <li><a href="#"> Group Sales </a></li>
+        <li><a href="#"> Shipping &amp; Returns </a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="col-footer-2 col-rtl col-xl-3 col-lg-3 col-md-3">
+        <div class="collapsible mobile-collapsible">
+        <h3 class="block-title heading">Shop</h3>
+        <span class="toggle-tab mobile" style="display: none;"> <span class="hidden"> hidden </span> </span>
+        <div class="block-content block-content-statick toggle-content">
+        <ul class="bullet">
+        <li><a href="#"> Laptop &amp; computer </a></li>
+        <li><a href="#"> Mac computer </a></li>
+        <li><a href="#"> Video &amp; Console </a></li>
+        <li><a href="#"> Accessories </a></li>
+        <li><a href="#"> Shipping &amp; Returns </a></li>
+        <li><a href="#"> Smartphone &amp; Tablet </a></li>
+        <li><a href="#"> Game &amp; Consoles </a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="col-footer-3 col-rtl text-3 col-xl-6 col-lg-6 col-md-6">
+        <div class="collapsible mobile-collapsible coll-msg">
+        <h3 class="block-title heading">Newsletter</h3>
+        <span class="toggle-tab mobile" style="display: none;"> <span class="hidden"> hidden </span> </span>
+        <div class="block-newletter block-content block-content-statick toggle-content">{{block class="Magento\Newsletter\Block\Subscribe" template="subscribe.phtml"}}
+        <div class="address-list-2">
+        <h3 class="block-title heading2">Fllow us</h3>
+        <div class="follow-buttons">
+<a class="social-link social-twitter" href="#"> <em class="fa fa-twitter"><em class="hidden">hidden</em></em> </a> 
+<a class="social-link social-facebook" href="#"> <em class="fa fa-facebook"><em class="hidden">hidden</em></em> </a> 
+<a class="social-link social-pinterest" href="#"> <em class="fa fa-pinterest-p"><em class="hidden">hidden</em></em> </a> 
+<a class="social-link social-instagram" href="#"> <em class="fa fa-instagram"><em class="hidden">hidden</em></em> </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Content Bottom]]></title>
+      <identifier><![CDATA[block_content_bottom]]></identifier>
+      <content><![CDATA[<div class="box-broduct-1">
+<div class="container">{{widget type="Magiccart\Magicproduct\Block\Widget\Category" template="category-custom.phtml" identifier="laptop-computer-demo8"}}</div>
+</div>
+<!--latest products-->
+<div class="box-broduct-2">
+<div class="container">{{widget type="Magiccart\Magicproduct\Block\Widget\Category" template="category.phtml" identifier="latest-products-hom8"}}</div>
+</div>
+<!--promotion banner-->
+<div class="promotion-bottom">
+<div class="container">
+<div class="pro-image"><a href="#"><img src="{{media url="wysiwyg/alothemes/static/demo8/promo-bottom.jpg"}}" alt=""></a></div>
+</div>
+</div>
+<!--bestseller-->
+<div class="bestseller-main">{{widget type="Magiccart\Magicproduct\Block\Widget\Category" template="category_bestseller.phtml" identifier="bestseller-home8" type_name="Magicproduct Categories Widget"}}</div>
+<!--end brand-->
+<div class="alo-brand alo-brand-heading">
+<div class="container">
+<div class="main">{{widget type="Magiccart\Shopbrand\Block\Widget\Brand" template="brand.phtml"}}</div>
+</div>
+</div>
+<!-- Blog -->
+<div class="alo-blog cms-static-blog">
+<div class="container">
+<div class="main-blog">{{widget type="Magiccart\Alothemes\Block\Widget\Blog" title="Latest Posts Blog" limit="9" slide="1" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" speed="400" autoplay-Speed="3000" padding="15" template="blog.phtml" rows="1" mobile="1" portrait="1" landscape="2" tablet="2" notebook="1" laptop="3" desktop="3" widescreen="3" visible="4" type_name="Blog Slider Widget"}}</div>
+</div>
+</div>
+<!-- hot categories -->
+<div class="hot-cat-list">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-12 col-md-12 col-12 col-hot">
+<div class="col-hot-wrap">
+<div class="col-hot-img"><a href="#"><img src="{{media url="wysiwyg/alothemes/static/demo17/cate_1.jpg"}}" alt="" width="371" height="165"></a></div>
+<div class="col-hot-text">
+<h3 class="col-hot-title"><a href="#">Smartphone &amp; Tablets</a></h3>
+<p class="col-hot-pharse">(126 items)</p>
+</div>
+</div>
+<div class="col-hot-wrap">
+<div class="col-hot-img"><a href="#"><img src="{{media url="wysiwyg/alothemes/static/demo17/cate_3.jpg"}}" alt="" width="371" height="165"></a></div>
+<div class="col-hot-text">
+<h3 class="col-hot-title"><a href="#">Camera &amp; TVs</a></h3>
+<p class="col-hot-pharse">(125 items)</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 col-12 col-md-12 col-hot">
+<div class="col-hot-wrap">
+<div class="col-hot-img"><a href="#"><img src="{{media url="wysiwyg/alothemes/static/demo17/cate_3.jpg"}}" alt="" width="371" height="165"></a></div>
+<div class="col-hot-text">
+<h3 class="col-hot-title"><a href="#">Headphone &amp; Mp3</a></h3>
+<p class="col-hot-pharse">(26 items)</p>
+</div>
+</div>
+<div class="col-hot-wrap">
+<div class="col-hot-img"><a href="#"><img src="{{media url="wysiwyg/alothemes/static/demo17/cate_4.jpg"}}" alt="" width="371" height="165"></a></div>
+<div class="col-hot-text">
+<h3 class="col-hot-title"><a href="#">Game &amp; Consoles</a></h3>
+<p class="col-hot-pharse">(99 items)</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 col-12 col-md-12 col-hot">
+<div class="col-hot-wrap">
+<div class="col-hot-img"><a href="#"><img src="{{media url="wysiwyg/alothemes/static/demo17/cate_5.jpg"}}" alt="" width="371" height="165"></a></div>
+<div class="col-hot-text">
+<h3 class="col-hot-title"><a href="#">Audios &amp; Accessories</a></h3>
+<p class="col-hot-pharse">(226 items)</p>
+</div>
+</div>
+<div class="col-hot-wrap">
+<div class="col-hot-img"><a href="#"><img src="{{media url="wysiwyg/alothemes/static/demo17/cate_6.jpg"}}" alt="" width="371" height="165"></a></div>
+<div class="col-hot-text">
+<h3 class="col-hot-title"><a href="#">Laptop &amp; Computer</a></h3>
+<p class="col-hot-pharse">(226 items)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-products random-products">
+<div class="container">{{widget type="Magiccart\Magicproduct\Block\Widget\Product" identifier="random-demo8" template="productcustom.phtml"}}</div>
+</div>
+<!-- service  -->
+<div class="service">
+<div class="container">
+<div class="row ct-flex">
+<div class=" ct-top"><span class="gokko-icon icon-paper-plane icon-ct-top"><em class="hidden">hidden</em></span>
+<p class="title-icon-ct-top">Free Shipping</p>
+<p class="text-icon-ct-top">On all order over $99</p>
+</div>
+<div class="ct-top"><span class="gokko-icon icon-refresh icon-ct-top"><em class="hidden">hidden</em></span>
+<p class="title-icon-ct-top">Money Back</p>
+<p class="text-icon-ct-top">100 % money back guarantee</p>
+</div>
+<div class="ct-top"><span class="gokko-icon icon-headphone icon-ct-top"><em class="hidden">hidden</em></span>
+<p class="title-icon-ct-top">Support 24/7</p>
+<p class="text-icon-ct-top">24/7 customer support</p>
+</div>
+<div class="ct-top"><span class="gokko-icon icon-payment icon-ct-top"><em class="hidden">hidden</em></span>
+<p class="title-icon-ct-top">Payment Method</p>
+<p class="text-icon-ct-top">Secure System</p>
+</div>
+<div class="ct-top"><span class="gokko-icon icon-gift icon-ct-top"><em class="hidden">hidden</em></span>
+<p class="title-icon-ct-top">Member Gift</p>
+<p class="text-icon-ct-top">Give gifts by week</p>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[top information right]]></title>
+      <identifier><![CDATA[top-information-right]]></identifier>
+      <content><![CDATA[<div class="social">
+    <ul>
+        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    </ul>
+</div>
+<div class="link-top">
+    <ul>
+        <li><a href="#"><i class="gokko-icon icon-envelope" aria-hidden="true"></i> Newsletter</a></li>
+        <li><a href="{{store url='contact'}}">Contact Us</a></li>
+        <li><a href="#">FAQ’s</a></li>
+    </ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block bottom menu 2]]></title>
+      <identifier><![CDATA[block-bottom-menu-3]]></identifier>
+      <content><![CDATA[<div class="banner-menu banner-menu-bottom2">
+    <div class="text-menu-button">
+        <p class="title-top">4 in 1 KBVision</p>
+        <p class="title-content">Smartphone</p>
+        <p class="title-bottom">Technology in Android</p>
+        <button type="button" class="btn btn-green">Shop now</button>
+    </div>
+<img class="img-responsive img-menu" src="{{media url=&quot;wysiwyg/alothemes/static/demo1/01_Home1_1.png&quot;}}" alt="" />
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Payment Card]]></title>
+      <identifier><![CDATA[block-payment-card]]></identifier>
+      <content><![CDATA[<ul>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/card_1_.png&quot;}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/card_2_.png&quot;}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/card_3_.png&quot;}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/card_4_.png&quot;}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo1/card_5_.png&quot;}}" alt="" /></a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block bottom TV & Audio]]></title>
+      <identifier><![CDATA[block-bottom-tv-audio]]></identifier>
+      <content><![CDATA[<div class="block-tv">
+    <div class="mage-column mega-block-bottom">
+        <div class="banner-menu banner-menu-bottom">
+            <div class="text-menu-button">
+                <p class="title-content">25-50% Off</p>
+                <p class="title-top">Selected big brand audios</p>
+                <button type="button" class="btn btn-green">Shop now</button>
+            </div>
+            <img class="img-responsive img-menu"
+                src="{{media url=&quot;wysiwyg/alothemes/static/demo1/01_Home1_03.jpg&quot;}}" alt="" />
+        </div>
+    </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Payment Card]]></title>
+      <identifier><![CDATA[block-payment-card-2-5d60ec785e876]]></identifier>
+      <content><![CDATA[<ul>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo5/apvp_1_.png&quot;}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo5/apvp_2_.png&quot;}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo5/apvp_3_.png&quot;}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url=&quot;wysiwyg/alothemes/static/demo5/apvp_4_.png&quot;}}" alt="" /></a></li>
+
+</ul>
+
+]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slider home 8]]></title>
+      <identifier><![CDATA[slide-home]]></identifier>
+      <content><![CDATA[{{widget type="Magiccart\Magicslider\Block\Widget\Slider" identifier="slide8" template="magicslider.phtml"}}]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Contact Us]]></title>
+      <identifier><![CDATA[block-contact-us]]></identifier>
+      <content><![CDATA[<div class="title">
+	<h3>Contact Us</h3>
+</div>
+<p class="text-contact">Est erat faucibus purus, eget viverra nulla sem vitae Quisque id sodales libero. In nec enim
+	nisi, in ultricies quam Sed lacinia </p>
+<ul class="address-list">
+	<li class="feature-icon first">
+		<p class="no-margin">
+			<span class="contact-name gokko-icon icon-location">
+				<span class="hidden">
+					hidden
+				</span>
+			</span>
+			<span class="tit-text">
+				<span class="tit-name">
+					<!---->
+				</span>
+				<span class="tit-contain">
+					20 Bilian Street , Bilian Court #01<br>
+					America 16HDK765
+				</span>
+			</span>
+		</p>
+	</li>
+	<li class="feature-icon">
+		<p>
+			<span class="contact-name gokko-icon icon-envelope">
+				<span class="hidden">
+					hidden
+				</span>
+			</span>
+			<span class="tit-text">
+				<span class="tit-name">
+					<!-- Phone: -->
+				</span>
+				<span class="tit-contain">
+					company@logo.com
+				</span>
+			</span>
+		</p>
+	</li>
+	<li class="feature-icon">
+		<p>
+			<span class="contact-name gokko-icon icon-phone">
+				<span class="hidden">
+					hidden
+				</span>
+			</span>
+			<span class="tit-text">
+				<span class="tit-name">
+					<!-- Fax: -->
+				</span>
+				<span class="tit-contain">
+					(+066) 123 456 7899
+				</span>
+			</span>
+		</p>
+	</li>
+</ul>
+<div class="title">
+	<h3>Store hours</h3>
+</div>
+<p class="hours">Monday - Sunday: <span>07:am - 23:pm</span></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>

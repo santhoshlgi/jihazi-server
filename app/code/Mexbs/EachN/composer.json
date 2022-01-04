@@ -1,0 +1,18 @@
+{
+  "name": "mexbs/each-n",
+  "description": "A Magento 2 module that extends the cart rule functionality by creating new promotion type - Each N",
+  "type": "magento2-module",
+  "require": {
+    "mexbs/ap-base": "*"
+  },
+  "version": "1.1.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Mexbs\\EachN\\": ""
+    }
+  }
+}

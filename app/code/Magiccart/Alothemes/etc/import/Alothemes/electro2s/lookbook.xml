@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <lookbook>
+    <item>
+      <title><![CDATA[lookbook home 6]]></title>
+      <identifier><![CDATA[lookbook-6]]></identifier>
+      <type_id><![CDATA[1]]></type_id>
+      <link><![CDATA[example.com]]></link>
+      <image><![CDATA[magiccart/lookbook/s/v/svsvsv.jpg]]></image>
+      <options><![CDATA[{"magic_pin":{"0":{"content":"4-TSW Nord 20x9 5x112 +20mm  Satin Black Wheels(#205)","undefined":"Save pin","product_id":"205","classes":"pop-over-right","coords":{"lat":"629.5","long":"132"}},"1":{"content":"Rent A Tesla Model S(#120)","undefined":"Save pin","product_id":"120","classes":"pop-over-right","coords":{"lat":"885.5","long":"351"}},"canvas":{"src":"https://wp2cart.com/electro2/pub/media/magiccart/lookbook/s/v/svsvsv.jpg","width":1920,"height":545}}}]]></options>
+      <stores><![CDATA[0]]></stores>
+      <order><![CDATA[0]]></order>
+      <status><![CDATA[1]]></status>
+    </item>
+  </lookbook>
+</root>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="3columns" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>	
+		<referenceContainer name="sidebar.additional">
+			<referenceBlock name="wishlist_sidebar" remove="true"/>
+			<!-- <referenceBlock name="catalog.compare.sidebar" remove="true"/> -->
+			<referenceBlock name="sale.reorder.sidebar" remove="true"/>		
+			<block class="Magento\Cms\Block\Block" name="block-sidebar-additional" after="catalog.compare.sidebar">
+				<arguments>
+					<argument name="block_id" xsi:type="string">block-sidebar-additional</argument>
+				</arguments>
+			</block>							
+		</referenceContainer>	
+        <move element="page.main.title" destination="product.shop.content" before="-"/>
+        <move element="product.info.price" destination="product.shop.content" after="page.main.title"/>
+        <move element="product.info.review" destination="product.info.price" before="-"/>
+        <move element="product.info.extrahint" destination="product.shop.content" after="-"/>
+        <move element="product.info" destination="product.shop.content"/>
+        <move element="product.info.overview" destination="product.info.price" after="product.info.social"/>
+        <move element="product.price.final" destination="product.info.price" after="-"/>
+        <move element="product.info.social" destination="product.info.price" before="product.info.overview"/>
+        <move element="alo.product.timer" destination="product.shop.content" after="product.info.price"/>
+
+		<referenceContainer name="product.info.main" htmlClass="product-info-main product-shop col-md-6 col-12 col" />
+		<referenceContainer name="product.info.media" htmlClass="product media product-img-box clearfix col-md-6 col-12 col" />
+		<container name="alo.product.timer" as="alo_product_timer" label="Alo Product Timer"  htmlTag="div" htmlClass="sections-content-timer wrap"/>
+		<referenceContainer name="alo.product.timer" htmlClass="additional-timer-block">
+			<block class="Magento\Catalog\Block\Product\View" name="product.timer" as="product_timer" template="product/view/timer.phtml">
+				<arguments>
+					<argument translate="true" name="title" xsi:type="string">Timer</argument>
+				</arguments>
+			</block>
+		</referenceContainer>
+		<container name="social.product.view">
+            <block class="Magento\Catalog\Block\Product\View" name="product.social.main" template="Magento_Catalog::product/view/social.phtml" after="product.info.mailto"/>
+        </container>
+        <move element="product.social.main" destination="product.info.main" after="product.info.addto"/>
+    </body>
+</page>

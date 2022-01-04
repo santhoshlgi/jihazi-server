@@ -1,0 +1,68 @@
+<!--
+/**
+ *
+ * @copyright Copyright © 2020 Magepow. All rights reserved.
+ * @author    @copyright Copyright (c) 2014 Magepow (<https://www.magepow.com>)
+ * @license <https://www.magepow.com/license-agreement.html>
+ * @Author: magepow<support@magepow.com>
+ * @github: <https://github.com/magepow>
+ */
+-->
+<!-- ko if: window.magepowRecentlyviewed == '1' -->
+
+<div if="hasData()" class="block widget-product recently-viewed magepow-show-widget" css="additionalClasses">
+    <div class="block-title">
+        <h2 class="heading-title block-title">
+            <span role="heading"
+                  aria-level="2"
+                  text="label"/>
+        </h2>
+    </div>
+    <div class="block-content category-products">
+        <div css="'products-' + displayMode" class="widget-products-grid magepow-widget-ol">
+            <ol class="product-items grid-slider magepow-recently-viewed">
+                <li class="product-item" repeat="foreach: filteredRows, item: '$row'">
+                    <div class="product-item-info">
+                        <fastForEach args="data: getRegion('general-area'), as: '$col'" >
+                            <render args="$col.getBody()"/>
+                        </fastForEach>
+
+                        <div class="product-item-details">
+                            <fastForEach args="data: getRegion('details-area'), as: '$col'" >
+                                <render args="$col.getBody()"/>
+                            </fastForEach>
+
+                            <div if="getRegion('action-primary-area')().length || getRegion('action-secondary-area')().length"
+                                 class="product-item-actions">
+                                <div class="actions-primary" if="getRegion('action-primary-area')().length">
+                                    <fastForEach args="data: getRegion('action-primary-area'), as: '$col'" >
+                                        <render args="$col.getBody()"/>
+                                    </fastForEach>
+                                </div>
+
+                                <div if="getRegion('action-secondary-area')().length"
+                                     class="actions-secondary"
+                                     data-role="add-to-links">
+                                    <fastForEach args="data: getRegion('action-secondary-area'), as: '$col'" >
+                                        <render args="$col.getBody()"/>
+                                    </fastForEach>
+                                </div>
+                            </div>
+
+                            <div if="getRegion('description-area')().length"
+                                 class="product-item-description">
+                                <fastForEach args="data: getRegion('description-area'), as: '$col'" >
+                                    <render args="$col.getBody()"/>
+                                </fastForEach>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+<div class="clear"  data-bind="afterRender : addSlickSlider()" ></div>
+<!-- /ko -->
+
+

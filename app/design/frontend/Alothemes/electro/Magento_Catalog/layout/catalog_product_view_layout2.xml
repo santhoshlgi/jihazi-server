@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+		 <move element="product.info.overview" destination="product.content.left" after="page.main.title"/>
+		 <move element="product.info.overview" destination="product.content.left" after="product.info.price"/>
+		 <move element="product.shopcontent" destination="product.info.main" before="product.info"/>
+		 <move element="alo.product.timer" destination="product.content.left" after="product.info.overview"/>
+	     <move element="product.info.details" destination="content" after="product.detail"/>
+		 <move element="content.complete" destination="content" before="product.info.details"/>
+		 <move element="recently.viewed" destination="content.aside" before="catalog.product.related"/>
+		 <referenceBlock name="product.secondary.column" remove="true"/>
+		 <container name="content.complete" as="content_complete" label="Complete Container"  htmlTag="div" htmlClass="sections-content-complete wrap"/>
+		 <referenceContainer name="product.primary.column" htmlClass="product-primary-column col-md-12 col-sm-12" />
+		 <referenceContainer name="product.info.main" htmlTag="div" htmlClass="product-info-main product-shop col-md-6 col-sm-6" />
+		 <referenceContainer name="product.info.media" htmlTag="div" htmlClass="product media product-img-box clearfix col-md-6 col-sm-6" />
+		 <referenceContainer name="content.complete" htmlClass="additional-complete-policy-block">
+			 <block class="Magento\Cms\Block\Block" name="additional_complete_policy_block" before="-">
+				<arguments>
+				  <argument name="block_id" xsi:type="string">additional-complete-policy-block</argument>
+				</arguments>
+			  </block>
+		 </referenceContainer>
+		<container name="alo.product.timer" as="alo_product_timer" label="Alo Product Timer"  htmlTag="div" htmlClass="sections-content-timer wrap"/>
+		<referenceContainer name="alo.product.timer" htmlClass="additional-timer-block">
+			<block class="Magento\Catalog\Block\Product\View" name="product.timer" as="product_timer" template="product/view/timer.phtml">
+				<arguments>
+					<argument translate="true" name="title" xsi:type="string">Timer</argument>
+				</arguments>
+			</block>
+			
+		</referenceContainer>
+		<referenceContainer name="product.info.extrahint">
+			<block class="Magento\Cms\Block\Block" name="block_brand_product_view" after="-">
+				<arguments>
+					<argument name="block_id" xsi:type="string">block_brand_product_view</argument>
+				</arguments>
+			</block>
+		</referenceContainer>
+    </body>
+</page>
